@@ -1,7 +1,12 @@
 title = "LeMaterial"
-baseurl = "http://localhost/"
+baseURL = "https://lematerial.github.io/lematerial-website/"
+relativeURLs = true
 canonifyURLs = false
 disableAliases = true
+
+
+
+
 disableHugoGeneratorInject = true
 # disableKinds = ["taxonomy", "term"]
 enableEmoji = true
