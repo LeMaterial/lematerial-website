@@ -6,12 +6,12 @@ const updateLogos = () => {
     const theme = getTheme();
     const logos = {
         hf: {
-            light: 'https://github.com/LeMaterial/lematerial-website/blob/main/images/assets/images/hf-logo-light.jpg?raw=true',
-            dark: 'https://github.com/LeMaterial/lematerial-website/blob/main/images/assets/images/hf-logo-dark.png?raw=true'
+            light: 'https://github.com/LeMaterial/lematerial-website/blob/main/assets/images/hf-logo-light.jpg?raw=true',
+            dark: 'https://github.com/LeMaterial/lematerial-website/blob/main/assets/images/hf-logo-dark.png?raw=true'
         },
         entalpic: {
-            light: 'https://github.com/LeMaterial/lematerial-website/blob/main/images/assets/images/entalpic.png?raw=true',
-            dark: 'https://github.com/LeMaterial/lematerial-website/blob/main/images/assets/images/entalpic.png?raw=true'
+            light: 'https://github.com/LeMaterial/lematerial-website/blob/main/assets/images/entalpic.png?raw=true',
+            dark: 'https://github.com/LeMaterial/lematerial-website/blob/main/assets/images/entalpic.png?raw=true'
         }
     };
     const hfLogo = document.getElementById('hf-logo');
