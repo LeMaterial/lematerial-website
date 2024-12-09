@@ -15,7 +15,7 @@
     "format": "prettier **/** -w -c",
     "build": "hugo --minify --gc",
     "preview": "vite preview --outDir public",
-    "deploy": "gh-pages -d public"
+    "deploy": "gh-pages -d public --cname lematerial.org"
   },
   "dependencies": {
     "@tabler/icons": "^3.12.0",
