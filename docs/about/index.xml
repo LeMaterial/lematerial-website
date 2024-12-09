@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>About on LeMaterial</title>
-    <link>/docs/about/</link>
+    <link>http://localhost:1313/docs/about/</link>
     <description>Recent content in About on LeMaterial</description>
     <generator>Hugo</generator>
     <language>en</language>
     <copyright>Copyright (c) 2020-2024 Thulite</copyright>
     <lastBuildDate>Thu, 07 Sep 2023 16:04:48 +0200</lastBuildDate>
-    <atom:link href="/docs/about/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/docs/about/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>The mission</title>
-      <link>/docs/about/the-mission/</link>
+      <link>http://localhost:1313/docs/about/the-mission/</link>
       <pubDate>Thu, 07 Sep 2023 16:04:48 +0200</pubDate>
-      <guid>/docs/about/the-mission/</guid>
-      <description>Guides lead a user through a specific task they want to accomplish, often with a sequence of steps. Writing a good guide requires thinking about what your users are trying to do.</description>
+      <guid>http://localhost:1313/docs/about/the-mission/</guid>
+      <description>&lt;p&gt;Guides lead a user through a specific task they want to accomplish, often with a sequence of steps. Writing a good guide requires thinking about what your users are trying to do.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
