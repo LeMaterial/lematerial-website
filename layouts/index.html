@@ -24,13 +24,14 @@
 {{ if eq $.Site.Language.LanguageName "English" }}
 
 <section class="section section-md section-features">
+    {{ $image := resources.Get "images/sunset.jpg" }}
 
     <div style="text-align: center;">
         <p>Supported by:</p>
         <div style="display: flex; justify-content: center; gap: 200px; align-items: center;">
-            <img src="https://mila.quebec/sites/default/files/styles/fixed_width_480/public/startup/10712/logo-purple.png.webp?itok=q_EnRbVf"
-                 alt="ServiceNow" width="200">
-            <img src="https://www.bigcode-project.org/hf_logo.jpg" alt="Hugging Face" width="200">
+            <img src="{{ $image.RelPermalink }}" alt="Sunset" width="200" id="sunset">
+                 alt="Entalpic's Logo" width="200" id="entalpic-logo">
+            <img src="https://www.bigcode-project.org/hf_logo.jpg" alt="Hugging Face" width="200" id="hf-logo">
         </div>
     </div>
 
