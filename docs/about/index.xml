@@ -2,32 +2,32 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>About on LeMaterial</title>
-    <link>/docs/about/</link>
+    <link>http://localhost:1313/docs/about/</link>
     <description>Recent content in About on LeMaterial</description>
     <generator>Hugo</generator>
     <language>en</language>
     <copyright>Copyright (c) 2020-2024 Entalpic</copyright>
     <lastBuildDate>Thu, 07 Sep 2023 16:04:48 +0200</lastBuildDate>
-    <atom:link href="/docs/about/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/docs/about/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>The mission</title>
-      <link>/docs/about/the-mission/</link>
+      <link>http://localhost:1313/docs/about/the-mission/</link>
       <pubDate>Thu, 07 Sep 2023 16:04:48 +0200</pubDate>
-      <guid>/docs/about/the-mission/</guid>
+      <guid>http://localhost:1313/docs/about/the-mission/</guid>
       <description>&lt;p&gt;&lt;strong&gt;LeMaterial&lt;/strong&gt; is an open-science initiative dedicated to advancing materials research by providing harmonized data, useful tools, ML models, and various other collaborative resources. Our mission is to drive progress at the intersection of materials science and machine learning (ML), opening new opportunities to uncover novel materials and explore chemical spaces with unprecedented depth.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Datasets</title>
-      <link>/docs/about/datasets/</link>
+      <link>http://localhost:1313/docs/about/datasets/</link>
       <pubDate>Thu, 07 Sep 2023 16:04:48 +0200</pubDate>
-      <guid>/docs/about/datasets/</guid>
+      <guid>http://localhost:1313/docs/about/datasets/</guid>
       <description>&lt;p&gt;As part of LeMaterial, we released and will maintain different datasets, unifying and standardizing data from existing databases:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;code&gt;LeMat-Bulk&lt;/code&gt;: released in December 2024, it unifies data from Materials Project, Alexandria, and OQMD into a high-quality resource with consistent and systematic properties (6,7M entries, 7 material properties)&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://huggingface.co/datasets/LeMaterial/LeMat-Bulk&#34;&gt;https://huggingface.co/datasets/LeMaterial/LeMat-Bulk&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
     </item>
     <item>
       <title>Code of Conduct</title>
-      <link>/docs/about/code-of-conduct/</link>
+      <link>http://localhost:1313/docs/about/code-of-conduct/</link>
       <pubDate>Thu, 07 Sep 2023 16:04:48 +0200</pubDate>
-      <guid>/docs/about/code-of-conduct/</guid>
+      <guid>http://localhost:1313/docs/about/code-of-conduct/</guid>
       <description>&lt;h2 id=&#34;our-pledge&#34;&gt;Our Pledge&lt;/h2&gt;&#xA;&lt;p&gt;We as members, contributors, and leaders pledge to make participation in our&#xA;community a harassment-free experience for everyone, regardless of age, body&#xA;size, visible or invisible disability, ethnicity, sex characteristics, gender&#xA;identity and expression, level of experience, education, socio-economic status,&#xA;nationality, personal appearance, race, caste, color, religion, or sexual&#xA;identity and orientation.&lt;/p&gt;</description>
     </item>
   </channel>
