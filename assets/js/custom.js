@@ -6,16 +6,19 @@ const updateLogos = () => {
     const theme = getTheme();
     const logos = {
         hf: {
-            light: 'images/hf-logo-light.jpg',
-            dark: 'images/hf-logo-dark.png'
+            light: 'https://github.com/LeMaterial/lematerial-website/blob/main/images/assets/images/hf-logo-light.jpg?raw=true',
+            dark: 'https://github.com/LeMaterial/lematerial-website/blob/main/images/assets/images/hf-logo-dark.png?raw=true'
         },
         entalpic: {
-            light: 'images/entalpic-logo-light.png',
-            dark: 'images/entalpic-logo-dark.png'
+            light: 'https://github.com/LeMaterial/lematerial-website/blob/main/images/assets/images/entalpic.png?raw=true',
+            dark: 'https://github.com/LeMaterial/lematerial-website/blob/main/images/assets/images/entalpic.png?raw=true'
         }
     };
-    document.getElementById('hf-logo').src = logos.hf[theme];
-    document.getElementById('entalpic-logo').src = logos.entalpic[theme];
+    const hfLogo = document.getElementById('hf-logo');
+    if (hfLogo) hfLogo.src = logos.hf[theme];
+
+    const entalpicLogo = document.getElementById('entalpic-logo');
+    if (entalpicLogo) entalpicLogo.src = logos.entalpic[theme];
 };
 
 function ready(fn) {
@@ -26,6 +29,7 @@ function ready(fn) {
     document.addEventListener('DOMContentLoaded', fn);
 }
 ready(function () {
-    // updateLogos();
+    updateLogos();
+    document.getElementById('buttonColorMode').addEventListener('click', updateLogos);
 });
 
