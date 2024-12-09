@@ -1,1 +1,14 @@
 // Put your custom SCSS code here
+#logos-row{
+  #entalpic-logo{
+    max-height: 45px;
+  }
+  #hf-logo{
+    max-height: 85px;
+  }
+  @media (max-width: 992px){
+    img{
+      margin-bottom: 30px;
+    }
+  }
+}
