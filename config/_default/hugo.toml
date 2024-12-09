@@ -1,5 +1,5 @@
 title = "LeMaterial"
-baseURL = "https://lematerial.github.io/lematerial-website/"
+baseURL = "https://lematerial.org"
 relativeURLs = true
 canonifyURLs = false
 disableAliases = true
@@ -22,7 +22,7 @@ defaultContentLanguage = "en"
 disableLanguages = ["de", "nl"]
 defaultContentLanguageInSubdir = false
 
-copyRight = "Copyright (c) 2020-2024 Thulite"
+copyRight = "Copyright (c) 2020-2024 Entalpic"
 
 [build.buildStats]
   enable = true

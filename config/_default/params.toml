@@ -1,6 +1,6 @@
 # Hugo
 title = "LeMaterial"
-description = "Congrats on setting up a new Doks project!"
+description = "LeMaterial"
 images = ["cover.png"]
 
 # mainSections
@@ -74,11 +74,11 @@ mainSections = ["docs"]
   editPage = false # false (default) or true
   lastMod = false # false (default) or true
   repoHost = "GitHub" # GitHub (default), Gitea, GitLab, Bitbucket, or BitbucketServer
-  docsRepo = "https://github.com/h-enk/doks"
+  docsRepo = "https://github.com/lematerial"
   docsRepoBranch = "main" # main (default), master, or <branch name>
   docsRepoSubPath = "" # "" (none, default) or <sub path>
 
-  krokiURL = "https://kroki.io" # "https://kroki.io" (default) or custom URL like http://localhost:8000.
+  #krokiURL = "https://kroki.io" # "https://kroki.io" (default) or custom URL like http://localhost:8000.
 
   # SCSS colors
   # backGround = "yellowgreen"
@@ -131,7 +131,7 @@ mainSections = ["docs"]
   [seo.schemas]
     type = "Organization" # Organization (default) or Person
     logo = "favicon-512x512.png" # Logo of Organization — favicon-512x512.png (default)
-    name = "Thulite" # Name of Organization or Person
+    name = "LeMaterial" # Name of Organization or Person
     sameAs = [] # E.g. ["https://github.com/thuliteio/thulite", "https://fosstodon.org/@thulite"]
     images = ["cover.png"] # ["cover.png"] (default)
     article = [] # Article sections
