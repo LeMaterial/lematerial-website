@@ -6,9 +6,26 @@ description = "Build beautiful, high-performance documentation websites with Dok
 homepage = "https://github.com/thuliteio/doks"
 demosite = "https://doks.netlify.app"
 
-tags = ["landing page", "documentation", "blog", "minimal", "modern", "customizable", "search", "dark mode", "bootstrap"]
-features = ["secure by design", "fast by default", "search optimized", "full text search", "page layouts", "dark mode"]
+tags = [
+  "landing page",
+  "documentation",
+  "blog",
+  "minimal",
+  "modern",
+  "customizable",
+  "search",
+  "dark mode",
+  "bootstrap",
+]
+features = [
+  "secure by design",
+  "fast by default",
+  "search optimized",
+  "full text search",
+  "page layouts",
+  "dark mode",
+]
 
 [author]
-  name = "Henk Verlinde"
-  homepage = "https://henkverlinde.com"
+name = "Henk Verlinde"
+homepage = "https://henkverlinde.com"
