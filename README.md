@@ -1,28 +1,26 @@
-# HOW to add content
+# How to add content
 
-### install
+## Requirements:
+- hugo
+- npm
 
-Download hugo 0.128.0 (wget https://github.com/gohugoio/hugo/releases/download/v0.128.0/hugo_extended_0.128.0_linux-amd64.deb) 
-and install npm
+## Install dependencies:
 
 ```bash
 npm install
 ```
 
-
-TO start locally:
-
-`hugo server -D --baseURL http://localhost:1313/`
-
-
-index is at layout/index.html
+## Start locally:
+```bash
+npm run dev
+```
 
 content (doc) is at content/docs
 
-### deploy
+### Deploy the web
 
 ```bash
-hugo
+npm run build
 npm run deploy
 ```
 
