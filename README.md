@@ -1,16 +1,16 @@
-# How to contribute
+## How to contribute
 
-## Requirements:
+### Install Requirements:
 - hugo (https://gohugo.io/installation/)
 - npm (https://docs.npmjs.com/downloading-and-installing-node-js-and-npm)
 
-## Install dependencies:
+### Install dependencies:
 
 ```bash
 npm install
 ```
 
-## Start locally:
+### Start locally:
 ```bash
 npm run dev
 ```
