@@ -11,7 +11,7 @@
   "scripts": {
     "create": "hugo new",
     "start": "npm run dev",
-    "dev": "hugo server --disableFastRender --noHTTPCache",
+    "dev": "hugo server --disableFastRender --noHTTPCache --baseURL http://localhost:1313",
     "format": "prettier **/** -w -c",
     "build": "hugo --minify --gc",
     "preview": "vite preview --outDir public",
