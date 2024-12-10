@@ -1,4 +1,4 @@
-# How to add content
+# How to contribute
 
 ## Requirements:
 - hugo (https://gohugo.io/installation/)
