@@ -1,8 +1,8 @@
 # How to add content
 
 ## Requirements:
-- hugo
-- npm
+- hugo (https://gohugo.io/installation/)
+- npm (https://docs.npmjs.com/downloading-and-installing-node-js-and-npm)
 
 ## Install dependencies:
 
