@@ -31,5 +31,5 @@ LeMaterial project operates **in the spirit of Open Science**. All datasets, mod
 
 ## Further reading
 
-- Explore our blogpost [link](https//entalpic.ai) for more details on the LeMaterial!
+- Explore our [blogpost](https://huggingface.co/blog/lematerial) for more details on the LeMaterial!
 
