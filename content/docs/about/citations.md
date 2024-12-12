@@ -14,7 +14,7 @@ seo:
   noindex: false # false (default) or true
 ---
 
-By downloading content from LeMaterial, you agree to accept the Creative Commons Attribution 4.0 license implying that Content may be copied, distributed, transmitted, and adapted, without obtaining specific permission from LeMaterial, provided proper attribution is given to LeMaterial. If you use the LeMaterial as a resource in your research, please cite the [citation section](https://huggingface.co/datasets/LeMaterial/LeMat-Bulk#citation-information) from our data-card (paper to come). CC-BY-4.0 requires proper acknowledgement.
+By downloading content from LeMaterial, you agree to accept the Creative Commons Attribution 4.0 license implying that Content may be copied, distributed, transmitted, and adapted, without obtaining specific permission from LeMaterial, provided proper attribution is given to LeMaterial. If you use the LeMaterial as a resource in your research, please cite the [citation section](https://huggingface.co/datasets/LeMaterial/LeMat-Bulk#citation-information) from our data-card (paper to come). [CC-BY-4.0](https://creativecommons.org/licenses/by/4.0/) requires proper acknowledgement.
 
 Thus,
 If you use materials data which include (”mp-”) in the immutable_id, please cite the [Materials Project](https://pubs.aip.org/aip/apm/article/1/1/011002/119685/Commentary-The-Materials-Project-A-materials).
