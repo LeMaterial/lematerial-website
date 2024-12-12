@@ -14,11 +14,11 @@ seo:
   noindex: false # false (default) or true
 ---
 
-We are excited to invite AI practitioners from diverse backgrounds to join LeMaterial project! Note that LeMaterial is a research collaboration and is open to participants who have
+We are excited to invite AI practitioners from diverse backgrounds to join LeMaterial! Note that LeMaterial is a research collaboration and is open to participants who have
 
 1. a professional research background
 2. are able to commit time to the project.
 
 In general, we expect applicants to be affiliated with a research organization (either in academia or industry) and work on the technical/ethical/legal aspects of LLMs for coding applications.
 
-You can apply [here](https://forms.gle/KvZLmo12Ps7252gi9) to LeMaterial project!
+You can apply [here](https://forms.gle/KvZLmo12Ps7252gi9) to LeMaterial!
