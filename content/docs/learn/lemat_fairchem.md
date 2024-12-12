@@ -56,11 +56,10 @@ pip install -e fairchem/packages/fairchem-core
 We also need to install PyTorch dependencies, make sure to pick the correct version of cuda for PyTorch Geometric, along with the right PyTorch version.
 
 ```python
-%%capture --no-display
-
 !pip install fairchem-core
 !pip install torch_geometric
 !pip install pyg_lib torch_scatter torch_sparse torch_cluster torch_spline_conv -f https://data.pyg.org/whl/torch-2.5.0+cu124.html
+!pip install datasets
 ```
 
 ```python
@@ -73,16 +72,6 @@ BATCH_SIZE = 2 # Train and evaluation batch size
 We use the dataset available at [LeMaterial's Hugging Face space](https://huggingface.co/LeMaterial).
 
 ```python
-%%capture --no-display
-from google.colab import userdata
-HF_TOKEN = userdata.get('HF_TOKEN')
-
-!pip install datasets
-!huggingface-cli login --token $HF_TOKEN
-```
-
-```python
-%%capture --no-display
 from datasets import load_dataset
 
 HF_DATASET_PATH = "LeMaterial/LeMat-Bulk"
@@ -101,7 +90,6 @@ dataset = load_dataset(HF_DATASET_PATH, SUBSET)["train"]
 We need to start by loading a trained model on which we can run predictions. For example, we can download a checkpoint from EquiformerV2 available [here](https://huggingface.co/yilunliao/equiformer_v2).
 
 ```python
-%%capture --no-display
 from huggingface_hub import hf_hub_download
 from fairchem.core import OCPCalculator
 
