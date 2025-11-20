@@ -14,13 +14,16 @@ seo:
   noindex: false # false (default) or true
 ---
 
-By downloading content from LeMaterial, you agree to accept the Creative Commons Attribution 4.0 license implying that Content may be copied, distributed, transmitted, and adapted, without obtaining specific permission from LeMaterial, provided proper attribution is given to LeMaterial. If you use the LeMaterial as a resource in your research, please cite the [citation section](https://huggingface.co/datasets/LeMaterial/LeMat-Bulk#citation-information) from our data-card (paper to come). [CC-BY-4.0](https://creativecommons.org/licenses/by/4.0/) requires proper acknowledgement.
+All content released under the LeMaterial initiative is distributed under the Creative Commons Attribution 4.0 International (CC BY 4.0) license. This means the datasets and tools may be freely copied, distributed, modified, and used for derivative works, provided that appropriate credit is given to the LeMaterial project.
 
-Thus,
-If you use materials data which include (”mp-”) in the immutable_id, please cite the [Materials Project](https://pubs.aip.org/aip/apm/article/1/1/011002/119685/Commentary-The-Materials-Project-A-materials).
+If you use LeMaterial in your research or software, please cite the data card citation section available on each dataset’s Hugging Face page. A consolidated reference paper is forthcoming.
 
-If you use materials data which include (”agm-”) in the immutable_id, please cite [Alexandria PBE](https://www.science.org/doi/10.1126/sciadv.abi7948) or [Alexandria PBESol, SCAN](https://www.nature.com/articles/s41597-022-01177-w).
+ **Attribution to Upstream Data Sources**
 
-If you use materials data which include (”oqmd-”) in the immutable_id, please cite [OQMD](https://link.springer.com/article/10.1007/s11837-013-0755-4).
+LeMaterial includes unified data from several foundational sources. Please make sure to also cite the original dataset(s) according to the provenance of the data you use.
 
-Finally, if you make use of the Phase Diagram for visualization purposes, or the crystal viewer in the Materials Explorer, please acknowledge [Crystal Toolkit](https://github.com/materialsproject/crystaltoolkit).
+For example in LeMat-Bulk, If you use materials data which include (”mp-”) in the immutable_id, please cite the [Materials Project](https://pubs.aip.org/aip/apm/article/1/1/011002/119685/Commentary-The-Materials-Project-A-materials). If they include (”agm-”) in the immutable_id, please cite [Alexandria PBE](https://www.science.org/doi/10.1126/sciadv.abi7948) or [Alexandria PBESol, SCAN](https://www.nature.com/articles/s41597-022-01177-w). If they include (”oqmd-”) in the immutable_id, please cite [OQMD](https://link.springer.com/article/10.1007/s11837-013-0755-4).
+
+ **Tools Acknowledgement**
+
+If you make use of the Phase Diagram visualizer or the 3D crystal viewer in the LeMaterial Explorer, please acknowledge the Crystal Toolkit project.
