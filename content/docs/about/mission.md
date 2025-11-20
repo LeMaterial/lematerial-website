@@ -14,23 +14,47 @@ seo:
   noindex: false # false (default) or true
 ---
 
-**LeMaterial** is an open-science initiative dedicated to advancing materials research by providing harmonized data, useful tools, ML models, and various other collaborative resources. Our mission is to drive progress at the intersection of materials science and machine learning (ML), opening new opportunities to uncover novel materials and explore chemical spaces with unprecedented depth.
+LeMaterial is an open-science initiative at the intersection of materials science and machine learning, created to accelerate the discovery of novel materials and deepen our understanding of the chemical space.
 
-In materials science, the integration of ML with large databases of quantum chemical calculations has revolutionized high-throughput screening and accelerated the discovery of new materials. However, progress is often hindered by fragmented datasets that differ in format, scope, and parameters, making data integration and analysis challenging.
+Our mission is to build and maintain a suite of harmonised datasets, benchmark tasks, machine learning models, and collaborative tools that empower researchers across disciplines, from quantum chemistry and experimentalists to ML scientists and software engineers, to drive forward an open and more effective scientific ecosystem.
 
-Through collaborative efforts, LeMaterial provides **the largest harmonized dataset** with compatible and standardized calculations, merging the most prominent material datasets, including Materials Project, Alexandria and OQMD. to deduplicate data and evaluate the novelty of generated materials.
+ **Why LeMaterial?**
 
-LeMaterial also proposed  **well-benchmarked hashing function** to deduplicate data and evaluate the novelty of generated materials. These contributions serve as critical resources for the materials and AI4Science community.
+The materials science ecosystem is evolving rapidly, but remains deeply fragmented. Datasets are scattered across platforms, often inconsistently formatted or missing key metadata. Benchmarks, models, and tools are siloed, making it difficult to build on others’ work or compare approaches fairly. LeMaterial aims to address this by creating a central, harmonized space where data, models, and ideas can move freely.
 
-LeMaterial invites researchers from diverse domains to address those challenges and collaborate on further research topics such as :
+LeMaterial aspires to be more than just a repository, more like a connective tissue for the community, bridging computational chemists, ML researchers, software engineers, and experimentalists. We believe progress happens when people with different expertise align early around shared challenges, not when they work in isolation.
 
-- Contributing to integrating new datasets (eg. trajectories, surfaces, reactions) and new properties
-- Developing predictive and generative ML models, for various purposes
-- Expanding analytical tools for chemical exploration
-- Shaping evaluation benchmarks, such as leaderboards for generative models
+By pooling skills, sharing infrastructure, and co-designing tools and standards, we hope to enable more ambitious, interdisciplinary science that no single group could tackle alone. LeMaterial offers early-career researchers a chance to contribute meaningfully, while empowering senior scientists to help shape foundational resources for the field.
 
-LeMaterial project operates **in the spirit of Open Science**. All datasets, models and tools are developed collectively and released under permissive licenses, ensuring accessibility to the entire community. While the project benefits from corporate support from Entalpic and Hugging Face (e.g. hosting datasets and compute), technical governance is driven by open working groups to ensure community collaboration and inclusivity.
+Above all, our goal is to accelerate discovery while lowering barriers to entry — so that any researcher with a good idea, regardless of background or affiliation, can help build the future of materials science
 
-## Further reading
+ **What You Can Work On**
+
+LeMaterial invites researchers from diverse domains to contribute to collaborative projects such as:
+
+- Integrating **new datasets** (e.g. crystals, defects, surfaces, reactions) and expanding the range of available properties
+- Developing **predictive and generative ML models** for materials and molecules
+- Expanding **analysis tools** to explore chemical and structural landscapes
+- Designing and maintaining **evaluation benchmarks and leaderboards**
+- …and more!
+
+ **🤝 An Open Invitation to Collaborate**
+
+LeMaterial is a platform for the community, built by the community. We welcome PhD students, postdocs, researchers, and professors to join forces on high-impact projects.
+
+Our collaborative working groups are open to all, and all datasets, tools, and models are released under permissive open-science licenses.
+
+While the initiative receives support from Entalpic and Hugging Face (for hosting, compute, and visibility), its direction is shaped by an open, distributed network of contributors.
+
+ **📬 Ready to Contribute?**
+
+- 👉 Join the [LeMaterial Slack](https://join.slack.com/t/lematerial/shared_invite/zt-3isyxmscz-2Gq5x6aRhYaeauMQmo~SCQ)
+- 👉 [Suggest your own idea for LeMaterial](https://docs.google.com/forms/d/e/1FAIpQLSfTIMVBLD2x62A32AGQ8PlCZamIUh3zrCr8lZlsEQmBX7HqYA/viewform)
+
+Whether you’re contributing code, data, theory, or just curiosity — we would love to have you involved.
+
+Let’s build the future of materials science — together.
+
+ **Further reading**
 
 - Explore our [blogpost](https://huggingface.co/blog/lematerial) for more details on the LeMaterial!
