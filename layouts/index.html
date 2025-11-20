@@ -13,54 +13,54 @@
         </div>
     </div>
 </section>
-{{ end }}
 
-{{ define "sidebar-prefooter" }}
-{{ if site.Params.doks.backgroundDots -}}
-<div class="d-flex justify-content-start">
-    <div class="bg-dots"></div>
-</div>
-{{ end -}}
-{{ if eq $.Site.Language.LanguageName "English" }}
-
+<!-- ===== Partners section directly under the hero ===== -->
 <section class="section section-md section-features">
+  <div class="container text-center">
 
-    <div style="text-align: center;">
-        <p>Supported by:</p>
-        <div class="row justify-content-center" id="logos-row">
-            <div class="col-12 col-lg-6 d-flex justify-content-center align-items-center">
-                <a href="https://entalpic.ai" target="_blank" rel="noopener noreferrer">
-                <img src="https://github.com/LeMaterial/lematerial-website/blob/main/assets/images/entalpic-logo-light.jpg?raw=true"
-                     alt="Entalpic's Logo" id="entalpic-logo">
-                </a>
-            </div>
-            <div class="col-12 col-lg-6 d-flex justify-content-center align-items-center">
-                <a href="https://huggingface.co/LeMaterial" target="_blank" rel="noopener noreferrer">
-                    <img src="https://github.com/LeMaterial/lematerial-website/blob/main/assets/images/hf-logo-light.jpg?raw=true" alt="Hugging Face" id="hf-logo">
-                </a>
-            </div>
-        </div>
+    <!-- First row: An initiative from -->
+    <p class="h5 mb-4 text-start">An initiative from:</p>
+    <div class="row justify-content-center mb-5">
+  <div class="col-12 d-flex justify-content-center align-items-center"
+       style="gap: 40px; flex-wrap: nowrap;">
+
+    <!-- Entalpic link — NO MARGIN HERE -->
+    <a href="https://entalpic.ai" target="_blank" rel="noopener noreferrer">
+      <img src="/images/partners/entalpic.png" alt="Entalpic"
+           style="height:50px; width:auto; display:block;">
+    </a>
+
+    <!-- Hugging Face link — ONLY THIS ONE HAS margin-left -->
+    <a href="https://huggingface.co/LeMaterial" target="_blank" rel="noopener noreferrer"
+       style="margin-left:20px;">
+      <img src="/images/partners/huggingface.png" alt="Hugging Face"
+           style="height:95px; width:auto; display:block;">
+    </a>
+
+  </div>
+</div>
+
+
+    <!-- Second row: In collaboration with -->
+    <p class="h5 mb-4 text-start">In collaboration with:</p>
+    <div class="row justify-content-center align-items-center">
+      <div class="col-6 col-md-3 d-flex justify-content-center mb-3">
+        <img src="/images/partners/ibm.png" alt="IBM" style="max-height:64px;">
+      </div>
+      <div class="col-6 col-md-3 d-flex justify-content-center mb-3">
+        <img src="/images/partners/ai-alliance.png" alt="AI Alliance"
+     style="max-height:64px; max-width:180px; width:auto; object-fit:contain;">
+      </div>
+      <div class="col-6 col-md-3 d-flex justify-content-center mb-3">
+        <img src="/images/partners/epfl.png" alt="EPFL" style="max-height:64px;">
+      </div>
+      <div class="col-6 col-md-3 d-flex justify-content-center mb-3">
+        <span style="font-size:1.25rem;">More to come…</span>
+      </div>
     </div>
 
-<!--    <div class="container">-->
-<!--        <div class="row justify-content-center text-center">-->
-<!--            <div class="col-lg-5">-->
-<!--                <h2 class="h4">Update content</h2>-->
-<!--                <p>Edit <code>content/_index.md</code> to see this page change.</p>-->
-<!--            </div>-->
-<!--            <div class="col-lg-5">-->
-<!--                <h2 class="h4">Add new content</h2>-->
-<!--                <p>Add Markdown files to <code>content</code> to create new pages.</p>-->
-<!--            </div>-->
-<!--            <div class="col-lg-5">-->
-<!--                <h2 class="h4">Configure your site</h2>-->
-<!--                <p>Edit your config in <code>config/_default/params.toml</code>.</p>-->
-<!--            </div>-->
-<!--           -->
-<!--        </div>-->
-    </div>
+  </div>
 </section>
-{{ end }}
 {{ end }}
 
 {{ define "sidebar-footer" }}
