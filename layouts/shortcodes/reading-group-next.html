@@ -1,0 +1,58 @@
+{{- $session := index site.Data "reading-group" "next_session" -}}
+{{- if $session -}}
+{{- $hasImage := and $session.image_url (ne $session.image_url "") -}}
+<section class="rg-section rg-next">
+  <div class="rg-next-card">
+    <div class="rg-next-header">
+      <div>
+        <p class="rg-kicker rg-kicker-muted">Next session</p>
+        {{ with $session.title }}<h2>{{ . }}</h2>{{ end }}
+        {{ if or $session.date $session.time }}
+          <p class="rg-next-meta">
+            {{ with $session.date }}{{ . }}{{ end }}{{ if and $session.date $session.time }} · {{ end }}{{ with $session.time }}{{ . }}{{ end }}
+          </p>
+        {{ end }}
+      </div>
+      <div class="rg-next-actions">
+        {{ with $session.calendar_link }}
+          <a class="rg-btn rg-btn-ghost" href="{{ . | safeURL }}">Add to calendar</a>
+        {{ end }}
+        {{ if $session.meeting_link }}
+          <a class="rg-btn rg-btn-primary" href="{{ $session.meeting_link | safeURL }}">Join meeting</a>
+        {{ else if $session.meeting_note }}
+          <span class="rg-next-muted">{{ $session.meeting_note }}</span>
+        {{ end }}
+      </div>
+    </div>
+    <div class="rg-next-body{{ if $hasImage }} has-image{{ end }}">
+      {{ if $hasImage }}
+        <div class="rg-next-media">
+          <img src="{{ $session.image_url | safeURL }}" alt="{{ $session.image_alt | default "Next session cover" }}">
+        </div>
+      {{ end }}
+      {{ with $session.description }}
+        <div class="rg-next-description">{{ . | markdownify }}</div>
+      {{ end }}
+      <div class="rg-next-details">
+        {{ with $session.speaker }}
+          {{ $isMultiple := or (in . "&") (in . ",") }}
+          <div>
+            <span>{{ if $isMultiple }}Speakers{{ else }}Speaker{{ end }}</span>
+            <strong>{{ . }}</strong>
+          </div>
+        {{ end }}
+        {{ with $session.paper_title }}
+          <div>
+            <span>Paper</span>
+            {{ if $session.paper_link }}
+              <a href="{{ $session.paper_link | safeURL }}">{{ . }}</a>
+            {{ else }}
+              <strong>{{ . }}</strong>
+            {{ end }}
+          </div>
+        {{ end }}
+      </div>
+    </div>
+  </div>
+</section>
+{{- end -}}

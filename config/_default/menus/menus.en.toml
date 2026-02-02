@@ -33,6 +33,11 @@
   url = "/docs/about/the-mission/"
   weight = 10
 
+[[main]]
+  name = "Reading Group"
+  url = "/docs/reading-group/"
+  weight = 15
+
 #[[main]]
 #  name = "Blog"
 #  url = "/blog/"

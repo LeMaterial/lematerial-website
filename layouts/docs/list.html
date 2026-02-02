@@ -1,0 +1,29 @@
+{{ define "main" }}
+{{ $isReadingGroup := eq .File.Path "docs/reading-group/_index.md" }}
+<div class="row justify-content-center">
+  <div class="{{ if $isReadingGroup }}col-12{{ else }}col-md-12 col-lg-10 col-xl-8{{ end }}">
+    <article{{ if $isReadingGroup }} class="reading-group-article"{{ end }}>
+      {{ if not $isReadingGroup }}
+        <h1 class="text-center">{{ if eq .CurrentSection .FirstSection }}{{ .Section | humanize }}{{ else }}{{ .Title }}{{ end }}</h1>
+      {{ end }}
+      {{ with .Content }}
+        <div class="{{ if $isReadingGroup }}rg-content{{ else }}text-center{{ end }}">{{ . }}</div>
+      {{ end }}
+      {{ if not $isReadingGroup }}
+        <div class="card-list">
+          {{ $currentSection := .CurrentSection }}
+          {{ range where .Site.RegularPages.ByTitle "Section" .Section }}
+            {{ if in (.RelPermalink | string) $currentSection.RelPermalink }}
+              <div class="card my-3">
+                <div class="card-body">
+                  <a class="stretched-link" href="{{ .RelPermalink }}">{{ .Params.title | title }} &rarr;</a>
+                </div>
+              </div>
+            {{ end }}
+          {{ end }}
+        </div>
+      {{ end }}
+    </article>
+  </div>
+</div>
+{{ end }}

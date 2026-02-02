@@ -1,0 +1,18 @@
+title: "Universally Converging Representations of Matter Across Scientific Foundation Models"
+date: "Wednesday, January 28, 2026"
+time: "8:30 AM PT / 11:30 AM ET / 5:30 PM CET"
+speaker: "Sathya Edamadaka & Soojung Yang"
+paper_title: "Universally Converging Representations of Matter Across Scientific Foundation Models"
+paper_link: "https://arxiv.org/abs/2512.03750"
+image_url: "https://media.licdn.com/dms/image/v2/D4E22AQH8qBo512BpWA/feedshare-shrink_2048_1536/B4EZvvyrj6GwAk-/0/1769254599375?e=1771459200&v=beta&t=VzCgv0xAJ3t8HBmJCUWu4EnU55IMDHoIT7sbwUgEYig"
+image_alt: "Next session cover"
+description: |
+  Scientific foundation models are now widely used to predict the behavior of molecules, materials, and proteins,
+  yet are trained using very different architectures, modalities, and datasets. We show that these models,
+  despite their differences, are converging to the same, universal representation of matter. By analyzing
+  embeddings from 59 models across 5 datasets, we highlight failure modes in scientific models, highlight
+  future lessons for training models to learn powerful representations, and provide ways to efficiently select
+  models for downstream tasks.
+calendar_link: "https://shorturl.at/aL6FR"
+meeting_link: "https://meet.google.com/hcg-szpf-ibh"
+meeting_note: "Meeting link shared in #general."
