@@ -15,7 +15,9 @@ seo:
 
 <div class="reading-group-page">
 <div class="rg-shell">
-    <section class="rg-hero">
+{{< reading-group-next >}}
+
+  <section class="rg-hero">
       <div class="rg-hero-text">
         <p class="rg-kicker">Ongoing Reading Group</p>
         <h1>LeMaterial Reading Group</h1>
@@ -39,18 +41,15 @@ seo:
   <div class="rg-hero-panel">
     <div class="rg-panel-header">
       <h2>Typical schedule</h2>
-      <p>Sessions are scheduled based on paper availability. Meeting links are posted in Slack.</p>
+      <p>Times vary based on papers. Details are posted in <code>#general</code>.</p>
     </div>
     <div class="rg-schedule-inline">
       <span><strong>PT</strong> 8:30 AM</span>
       <span><strong>ET</strong> 11:30 AM</span>
       <span><strong>CET</strong> 5:30 PM</span>
     </div>
-    <div class="rg-panel-footer">Check the <code>#general</code> channel for upcoming paper details and the meeting link.</div>
   </div>
 </section>
-
-{{< reading-group-next >}}
 
   <section class="rg-section rg-recordings">
     <div class="rg-recordings-header">
