@@ -295,6 +295,20 @@ a {
     margin: 0;
 }
 
+
+.rg-next-bio span {
+    display: block;
+    font-size: 0.72rem;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    color: var(--rg-muted);
+    margin-bottom: 0.35rem;
+}
+
+.rg-next-bio-text p {
+    margin: 0;
+}
+
 .rg-next-details {
     display: grid;
     gap: 0.9rem;
@@ -318,6 +332,12 @@ a {
 
 .rg-next-details a:hover {
     text-decoration: underline;
+}
+
+.rg-next-divider {
+    border: 0;
+    border-top: 1px solid var(--rg-border);
+    margin: clamp(1.25rem, 3vw, 1.75rem) 0;
 }
 
 .rg-section-header {
