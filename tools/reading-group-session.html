@@ -1,0 +1,220 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Reading Group Session Builder</title>
+    <link rel="stylesheet" href="/tools/reading-group-session.css">
+  </head>
+  <body>
+    <header>
+      <h1>Reading Group Session Builder</h1>
+      <p>Generate a Google Calendar link, optional short link, and a PR draft for the next session.</p>
+    </header>
+    <div class="container">
+      <div class="grid">
+        <section class="card">
+          <h2>Session Inputs</h2>
+          <div class="field">
+            <label for="paper-title">Paper title</label>
+            <input id="paper-title" type="text" placeholder="Paper title" />
+          </div>
+          <div class="field">
+            <label for="session-title">Session title (optional)</label>
+            <input id="session-title" type="text" placeholder="Defaults to paper title" />
+            <small>If you want a talk title different from the paper title, enter it here.</small>
+          </div>
+          <div class="field">
+            <label for="speakers">Speaker(s)</label>
+            <input id="speakers" type="text" placeholder="Speaker names" />
+          </div>
+          <div class="inline">
+            <div class="field">
+              <label for="date">Date</label>
+              <input id="date" type="date" />
+            </div>
+            <div class="field">
+              <label for="time">Start time</label>
+              <input id="time" type="time" value="17:30" />
+            </div>
+            <div class="field">
+              <label for="duration">Duration (min)</label>
+              <input id="duration" type="number" min="15" step="5" value="60" />
+            </div>
+          </div>
+          <div class="field">
+            <label for="tz">Time zone</label>
+            <select id="tz">
+              <option value="Europe/Paris">Europe/Paris (CET/CEST)</option>
+              <option value="America/Los_Angeles">America/Los_Angeles (PT)</option>
+              <option value="America/New_York">America/New_York (ET)</option>
+              <option value="UTC">UTC</option>
+              <option value="custom">Custom...</option>
+            </select>
+            <input id="tz-custom" type="text" placeholder="Custom time zone (e.g., America/Chicago)" style="display:none; margin-top:0.5rem;" />
+            <small>The calendar link uses this time zone for display and converts to UTC internally.</small>
+          </div>
+          <div class="field">
+            <label for="paper-url">Paper URL</label>
+            <input id="paper-url" type="url" placeholder="https://..." />
+          </div>
+          <div class="field">
+            <label for="meet-url">Google Meet URL</label>
+            <input id="meet-url" type="url" value="https://meet.google.com/hcg-szpf-ibh" placeholder="https://meet.google.com/..." />
+          </div>
+          <div class="field">
+            <label for="meeting-note">Meeting note (optional)</label>
+            <input id="meeting-note" type="text" placeholder="e.g., Meeting link shared in #general." />
+          </div>
+          <div class="field">
+            <label for="description">Description</label>
+            <textarea id="description" placeholder="Short abstract or blurb"></textarea>
+          </div>
+          <div class="field">
+            <label for="notes">Extra notes (optional)</label>
+            <textarea id="notes" placeholder="Any extra info you want in the calendar description"></textarea>
+          </div>
+          <div class="inline">
+            <div class="field">
+              <label for="display-date">Display date (optional)</label>
+              <input id="display-date" type="text" placeholder="Wednesday, February 18, 2026" />
+            </div>
+            <div class="field">
+              <label for="display-time">Display time (optional)</label>
+              <input id="display-time" type="text" placeholder="8:30 AM PT / 11:30 AM ET / 5:30 PM CET" />
+            </div>
+          </div>
+          <div class="inline">
+            <div class="field">
+              <label for="title-prefix">Event title prefix</label>
+              <input id="title-prefix" type="text" value="LeMaterial Reading Group - " />
+            </div>
+            <div class="field">
+              <label for="max-details">Max details length</label>
+              <input id="max-details" type="number" min="200" step="50" value="900" />
+              <small>Trim description if needed to keep URL length manageable.</small>
+            </div>
+          </div>
+        </section>
+
+        <section class="card output">
+          <h2>Calendar Link</h2>
+          <div class="field">
+            <label for="gcal-url">Google Calendar URL</label>
+            <textarea id="gcal-url" readonly></textarea>
+          </div>
+          <div class="actions">
+            <button id="copy-gcal" type="button">Copy URL</button>
+            <a id="open-gcal" class="btn" href="#" target="_blank" rel="noopener">Open link</a>
+          </div>
+          <div id="gcal-meta" class="status"></div>
+
+          <h2 style="margin-top:1.5rem;">Short URL</h2>
+          <div class="field">
+            <label for="short-url">Shortened URL</label>
+            <input id="short-url" type="text" placeholder="Paste a short URL if you have one" />
+          </div>
+          <div class="inline">
+            <div class="field">
+              <label for="shortener">Shortener</label>
+              <select id="shortener">
+                <option value="isgd">is.gd (simple API)</option>
+                <option value="tinyurl">TinyURL (simple API)</option>
+                <option value="manual">Manual only</option>
+              </select>
+            </div>
+            <div class="field" style="justify-content:flex-end;">
+              <button id="shorten" class="primary" type="button">Shorten</button>
+            </div>
+          </div>
+          <div class="actions">
+            <button id="copy-short" type="button">Copy short URL</button>
+            <button id="paste-short" type="button">Paste short URL</button>
+            <a id="open-shortener" class="btn" href="#" target="_blank" rel="noopener">Open shortener</a>
+          </div>
+          <div id="short-status" class="status"></div>
+          <div class="note">
+            If shortening fails due to browser restrictions, use the "Open shortener" button and copy the result.
+          </div>
+
+          <h2 style="margin-top:1.5rem;">PR Draft</h2>
+          <div class="field">
+            <label for="pr-text">Announcement text</label>
+            <textarea id="pr-text" readonly></textarea>
+          </div>
+          <div class="actions">
+            <button id="copy-pr" type="button">Copy PR</button>
+          </div>
+
+          <h2 style="margin-top:1.5rem;">GitHub PR</h2>
+          <div class="field">
+            <label for="repo">Repository</label>
+            <input id="repo" type="text" value="LeMaterial/lematerial-website" />
+          </div>
+          <div class="inline">
+            <div class="field">
+              <label for="base-branch">Base branch</label>
+              <input id="base-branch" type="text" value="main" />
+            </div>
+            <div class="field">
+              <label for="yaml-path">YAML path</label>
+              <input id="yaml-path" type="text" value="data/reading-group/next_session.yaml" />
+            </div>
+          </div>
+          <div class="field">
+            <label for="pr-title">PR title</label>
+            <input id="pr-title" type="text" />
+          </div>
+          <div class="field">
+            <label for="pr-body">PR body</label>
+            <textarea id="pr-body"></textarea>
+          </div>
+          <div class="actions">
+            <button id="create-pr" class="primary" type="button">Create PR</button>
+            <button id="copy-payload" type="button">Copy PR payload</button>
+          </div>
+          <div id="pr-status" class="status"></div>
+          <div class="field">
+            <label for="pr-url">PR URL</label>
+            <input id="pr-url" type="text" readonly />
+          </div>
+          <div class="field">
+            <label for="yaml-output">Updated YAML</label>
+            <textarea id="yaml-output" readonly></textarea>
+          </div>
+          <div class="field">
+            <label for="pr-command">Local GH command</label>
+            <input id="pr-command" type="text" readonly />
+          </div>
+          <div class="field">
+            <label for="pr-payload">PR payload (JSON)</label>
+            <textarea id="pr-payload" readonly></textarea>
+          </div>
+          <div class="note">
+            Requires a Netlify function with a GitHub token (repo write + PR permissions).
+          </div>
+        </section>
+
+        <section class="card">
+          <h2>Image</h2>
+          <div class="field">
+            <label for="image-url">Image URL (preferred)</label>
+            <input id="image-url" type="url" placeholder="https://..." />
+          </div>
+          <div class="field">
+            <label for="image-alt">Image alt text (optional)</label>
+            <input id="image-alt" type="text" placeholder="Short description of the image" />
+          </div>
+          <div class="field">
+            <label for="image-file">Or choose a local image (preview only)</label>
+            <input id="image-file" type="file" accept="image/*" />
+            <small>This does not upload the image. Host it somewhere and paste the URL above.</small>
+          </div>
+          <img id="image-preview" class="preview" alt="Image preview" />
+        </section>
+      </div>
+    </div>
+
+    <script src="/tools/reading-group-session.js" defer></script>
+  </body>
+</html>
