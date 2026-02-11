@@ -14577,6 +14577,11 @@ a {
   gap: 0.75rem;
   margin-bottom: 1.25rem; }
 
+.rg-cta-note {
+  margin: -0.5rem 0 1rem;
+  color: var(--rg-muted);
+  font-size: 0.95rem; }
+
 .rg-btn {
   display: inline-flex;
   align-items: center;
