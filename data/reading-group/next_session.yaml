@@ -1,25 +1,12 @@
-- title: "Exploring structure, properties, and reactivity in transition metal complexes with deep learning and quantum chemistry"
-  date: "Wednesday, February 18, 2026"
-  date_iso: "2026-02-18"
-  time: "8:30 AM PT / 11:30 AM ET / 5:30 PM CET"
-  speaker: "Jacob W. Toney"
-  paper_title: "Identifying Dynamic Metal–Ligand Coordination Modes with Ensemble Learning"
-  paper_link: "https://pubs.acs.org/doi/10.1021/jacs.5c17169"
-  image_url: "https://utfs.io/f/VUSmVbigfv2Zexa4kOSOD86dqPCRM7x19AGNsoKjYJ2cngaL"
-  image_alt: "Transition metal complexes cover"
-  description: |
-    Despite their significance in catalysis, medicine, and sustainability, transition metal complexes are challenging to
-    model due to complicated electronic structures, limited experimental data, and a vast chemical space. This talk
-    discusses recent advances in accurately predicting the structural properties of transition metal complexes with deep
-    learning, facilitating the systematic exploration of chemical space. We conclude by demonstrating the integration
-    of these models with generative AI for exploring novel organometallic chemistries and reactions.
-  calendar_link: "https://shorturl.at/aL6FR"
-  meeting_link: "https://meet.google.com/hcg-szpf-ibh"
-  meeting_note: "Meeting link shared in #general."
 - title: "Enhancing Diffusion-Based Sampling with Molecular Collective Variables"
   date: "Wednesday, February 25, 2026"
   date_iso: "2026-02-25"
   time: "8:30 AM PT / 11:30 AM ET / 5:30 PM CET"
-  speaker: "Juno Nam & Benjamin Kurt Miller"
+  speaker: "Juno Nam"
   paper_title: "Enhancing Diffusion-Based Sampling with Molecular Collective Variables"
   paper_link: "https://arxiv.org/abs/2510.11923"
+  image_url: "https://utfs.io/f/VUSmVbigfv2Z2BgNhi6FtTC98Ri3cYO1nBpZswShXPUd7lIq"
+  meeting_link: "https://meet.google.com/hcg-szpf-ibh"
+  calendar_link: "https://calendar.google.com/calendar/event?action=TEMPLATE&tmeid=M2Z1ZW44dDFkdWpkczRydDNob3U2dmhoM2RfMjAyNjAyMjVUMTYzMDAwWiBkMjJlZGU4ZWNmYmE1YWFiZWMyZmYzNmI3Y2VmYTdkYTNjY2QxZmNiNjFiYjJlNDQxMjg4MjlmZDgwYzIwMjYyQGc&tmsrc=d22ede8ecfba5aabec2ff36b7cefa7da3ccd1fcb61bb2e44128829fd80c20262%40group.calendar.google.com"
+  description: |
+    We present a diffusion-based molecular sampling method that improves exploration of complex energy landscapes without relying on training data. By introducing a sequential bias along low-dimensional collective variables (CVs), the approach enhances mode discovery, enables accurate free energy estimation, and preserves correct Boltzmann sampling via reweighting.
