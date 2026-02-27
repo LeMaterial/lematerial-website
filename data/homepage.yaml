@@ -169,13 +169,6 @@ affiliations:
       class: "lemat-logo--mit"
       width: 3660
       height: 1040
-    - name: "LIAC"
-      group: "Academia & Research Labs"
-      src: "/images/partners/liac.png"
-      url: "https://www.epfl.ch/labs/liac/"
-      class: "lemat-logo--liac"
-      width: 320
-      height: 320
     - name: "NCCR MARVEL"
       group: "Academia & Research Labs"
       src: "/images/partners/nccr-marvel.svg"

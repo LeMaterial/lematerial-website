@@ -1,0 +1,16 @@
+{{ define "main" }}
+<section class="lemat-publications-standalone">
+  <div class="lemat-publications-standalone__shell">
+    <header class="lemat-publications-standalone__header">
+      <p class="lemat-publications-standalone__kicker">LeMaterial</p>
+      <h1>{{ .Title }}</h1>
+      {{ with .Params.description }}
+        <p class="lemat-publications-standalone__intro">{{ . }}</p>
+      {{ end }}
+    </header>
+    <div class="lemat-publications-standalone__content">
+      {{ .Content }}
+    </div>
+  </div>
+</section>
+{{ end }}

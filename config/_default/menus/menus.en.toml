@@ -34,6 +34,11 @@
   weight = 10
 
 [[main]]
+  name = "Publications"
+  url = "/publications/"
+  weight = 11
+
+[[main]]
   name = "Projects"
   identifier = "projects"
   url = "/docs/about/datasets/"
