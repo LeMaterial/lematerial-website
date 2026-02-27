@@ -1,27 +1,28 @@
 {{ define "main" }}
-{{ $home := site.Data.homepage }}
+{{ $page := . }}
+{{ with site.Data.homepage }}
 <section class="lemat-homepage">
   <div class="container">
     <section class="lemat-hero" aria-labelledby="lemat-hero-title">
       <div class="lemat-hero__content">
-        <h1 id="lemat-hero-title" class="lemat-hero__title">{{ $home.hero.title }}</h1>
-        <p class="lemat-hero__lead">{{ $home.hero.lead }}</p>
+        <h1 id="lemat-hero-title" class="lemat-hero__title">{{ .hero.title }}</h1>
+        <p class="lemat-hero__lead">{{ .hero.lead }}</p>
         <div class="lemat-hero__actions">
-          {{ range $home.hero.actions }}
+          {{ range .hero.actions }}
           <a class="btn btn-lg rounded-pill{{ if eq .variant "primary" }} btn-primary{{ else }} btn-outline-primary{{ end }}" href="{{ .url }}"{{ if .external }} target="_blank" rel="noopener noreferrer"{{ end }}>{{ .label }}</a>
           {{ end }}
         </div>
-        <p class="lemat-hero__support">{{ $home.hero.support }}</p>
+        <p class="lemat-hero__support">{{ .hero.support }}</p>
       </div>
     </section>
 
     <section class="lemat-section lemat-updates" id="latest-updates" aria-labelledby="lemat-updates-title">
       <div class="lemat-section__heading">
         <p class="lemat-section__kicker">Updates</p>
-        <h2 id="lemat-updates-title">{{ $home.updates.title }}</h2>
+        <h2 id="lemat-updates-title">{{ .updates.title }}</h2>
       </div>
       <div class="lemat-updates__grid">
-        {{ range $index, $item := $home.updates.items }}
+        {{ range $index, $item := .updates.items }}
         <article class="lemat-update-card{{ if eq $index 0 }} lemat-update-card--featured{{ end }}">
           <div class="lemat-update-card__meta">
             <time datetime="{{ $item.date }}">{{ $item.date }}</time>
@@ -36,11 +37,11 @@
 
     <section class="lemat-section lemat-affiliations" aria-labelledby="lemat-affiliations-title">
       <div class="lemat-section__heading lemat-section__heading--compact">
-        <h2 id="lemat-affiliations-title">{{ $home.affiliations.title }}</h2>
-        <p>{{ $home.affiliations.intro }}</p>
+        <h2 id="lemat-affiliations-title">{{ .affiliations.title }}</h2>
+        <p>{{ .affiliations.intro }}</p>
       </div>
       <div class="lemat-affiliations__grid" role="list">
-        {{ range $home.affiliations.logos }}
+        {{ range .affiliations.logos }}
         <div class="lemat-affiliations__item" role="listitem">
           <a href="{{ .url }}" target="_blank" rel="noopener noreferrer" aria-label="{{ .name }}" title="{{ .name }}">
             {{ if .srcDark }}
@@ -59,11 +60,11 @@
     <section class="lemat-section lemat-contribute" aria-labelledby="lemat-contribute-title">
       <div class="lemat-section__heading">
         <p class="lemat-section__kicker">Get Involved</p>
-        <h2 id="lemat-contribute-title">{{ $home.contribute.title }}</h2>
-        <p>{{ $home.contribute.intro }}</p>
+        <h2 id="lemat-contribute-title">{{ .contribute.title }}</h2>
+        <p>{{ .contribute.intro }}</p>
       </div>
       <div class="lemat-contribute__grid">
-        {{ range $home.contribute.cards }}
+        {{ range .contribute.cards }}
         <article class="lemat-contribute-card">
           <h3>{{ .title }}</h3>
           <p>{{ .description }}</p>
@@ -75,6 +76,22 @@
 
   </div>
 </section>
+{{ else }}
+<section class="section container-fluid mt-n3 pb-3">
+  <div class="row justify-content-center">
+    <div class="col-lg-12 text-center">
+      <h1>{{ $page.Title }}</h1>
+    </div>
+    <div class="col-lg-9 col-xl-8 text-center">
+      {{ with $page.Params.lead }}
+      <p class="lead">{{ . | safeHTML }}</p>
+      {{ end }}
+      {{ $page.Content }}
+      <a class="btn btn-primary btn-cta rounded-pill btn-lg my-3" href="/docs/about/the-mission/" role="button">Learn more</a>
+    </div>
+  </div>
+</section>
+{{ end }}
 {{ end }}
 
 {{ define "sidebar-footer" }}
