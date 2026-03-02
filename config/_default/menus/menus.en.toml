@@ -38,45 +38,45 @@
   url = "/publications/"
   weight = 11
 
-[[main]]
-  name = "Projects"
-  identifier = "projects"
-  url = "/docs/about/datasets/"
-  weight = 12
-
-[[main]]
-  name = "LeMat-Bulk"
-  parent = "projects"
-  url = "https://huggingface.co/datasets/LeMaterial/LeMat-Bulk"
-  weight = 1
-
-[[main]]
-  name = "LeMat-GenBench"
-  parent = "projects"
-  url = "https://github.com/LeMaterial/lemat-genbench"
-  weight = 2
-
-[[main]]
-  name = "LeMat-Traj"
-  parent = "projects"
-  url = "https://huggingface.co/datasets/LeMaterial/LeMat-Traj"
-  weight = 3
-
-[[main]]
-  name = "LeMat-Synth"
-  parent = "projects"
-  url = "https://huggingface.co/datasets/LeMaterial/LeMat-Synth"
-  weight = 4
+#[[main]]
+#  name = "Projects"
+#  identifier = "projects"
+#  url = "/docs/about/datasets/"
+#  weight = 12
+#
+#[[main]]
+#  name = "LeMat-Bulk"
+#  parent = "projects"
+#  url = "https://huggingface.co/datasets/LeMaterial/LeMat-Bulk"
+#  weight = 1
+#
+#[[main]]
+#  name = "LeMat-GenBench"
+#  parent = "projects"
+#  url = "https://github.com/LeMaterial/lemat-genbench"
+#  weight = 2
+#
+#[[main]]
+#  name = "LeMat-Traj"
+#  parent = "projects"
+#  url = "https://huggingface.co/datasets/LeMaterial/LeMat-Traj"
+#  weight = 3
+#
+#[[main]]
+#  name = "LeMat-Synth"
+#  parent = "projects"
+#  url = "https://huggingface.co/datasets/LeMaterial/LeMat-Synth"
+#  weight = 4
 
 [[main]]
   name = "Reading Group"
   url = "/docs/reading-group/"
   weight = 15
 
-#[[main]]
-#  name = "Blog"
-#  url = "/blog/"
-#  weight = 30
+[[main]]
+  name = "Blog"
+  url = "/blog/"
+  weight = 30
 
 # [[social]]
 #   name = "Twitter"

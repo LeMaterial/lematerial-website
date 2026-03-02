@@ -4,7 +4,7 @@ description = "LeMaterial"
 images = ["cover.png"]
 
 # mainSections
-mainSections = ["docs"]
+mainSections = ["docs", "blog"]
 alertText = 'LeMat-GenBench leaderboard is now live on Hugging Face. <a class="alert-link" href="https://huggingface.co/spaces/LeMaterial/LeMat-GenBench" target="_blank" rel="noopener noreferrer">Open leaderboard</a>.'
 
 [social]

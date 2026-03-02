@@ -1,0 +1,25 @@
+{{ define "main" }}
+<article class="lemat-blog-simple-post">
+  <div class="lemat-blog-simple-post__shell">
+    <p class="lemat-blog-simple-post__back"><a href="/blog/">Back to all posts</a></p>
+    <p class="lemat-blog-simple-post__kicker">LeMaterial blog</p>
+    <h1>{{ .Title }}</h1>
+    <div class="lemat-blog-simple-post__meta">
+      <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "January 2, 2006" }}</time>
+    </div>
+    {{ with .Params.summary }}
+      <p class="lemat-blog-simple-post__summary">{{ . }}</p>
+    {{ end }}
+    {{ with .Params.external_url }}
+      <p class="lemat-blog-simple-post__cta">
+        <a href="{{ . }}" target="_blank" rel="noopener noreferrer">
+          {{ with $.Params.external_label }}{{ . }}{{ else }}Read original post{{ end }}
+        </a>
+      </p>
+    {{ end }}
+    <div class="lemat-blog-simple-post__content">
+      {{ .Content }}
+    </div>
+  </div>
+</article>
+{{ end }}

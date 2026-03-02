@@ -1,0 +1,185 @@
+[hero]
+title = "LeMaterial"
+lead = "Open-source collaboration to accelerate materials research across data, models, and tools."
+support = "Built by an open community of materials scientists, ML researchers, and engineers."
+
+[[hero.actions]]
+label = "HuggingFace"
+url = "https://huggingface.co/LeMaterial"
+variant = "primary"
+external = true
+icon = "huggingface"
+
+[[hero.actions]]
+label = "Github"
+url = "https://github.com/lematerial"
+variant = "primary"
+external = true
+icon = "github"
+
+[[hero.actions]]
+label = "Slack"
+url = "https://join.slack.com/t/lematerial/shared_invite/zt-3isyxmscz-2Gq5x6aRhYaeauMQmo~SCQ"
+variant = "outline"
+external = true
+icon = "slack"
+
+[[hero.actions]]
+label = "Join"
+url = "https://docs.google.com/forms/d/e/1FAIpQLSd1v4yn5mxYL6QCCW33o7lRB37-MAFfLDXmpTN1nlhsYEGmTg/viewform"
+variant = "outline"
+external = true
+
+[updates]
+title = "Latest from LeMaterial"
+
+[[updates.items]]
+date = "2025-11-26"
+title = "Reading Group sessions are live"
+description = "Join recurring discussions on AI for materials science with paper walkthroughs and open Q&A."
+url = "/docs/reading-group/"
+label = "See sessions"
+external = false
+
+[[updates.items]]
+date = "2025-10-10"
+title = "LeMat datasets are available on Hugging Face"
+description = "Explore LeMat-Bulk, LeMat-BulkUnique, LeMat-Traj, and LeMat-Synth from a single open hub."
+url = "/docs/about/datasets/"
+label = "Browse datasets"
+external = false
+
+[[updates.items]]
+date = "2025-09-30"
+title = "LeMaterial x FAIRChem tutorial published"
+description = "Train and evaluate FAIRChem workflows using LeMaterial data with a practical, end-to-end guide."
+url = "/docs/learn/lematerial-with-fairchem/"
+label = "Open tutorial"
+external = false
+
+[affiliations]
+title = "Partners and Collaborators"
+intro = "LeMaterial is built with support from research and industry collaborators across the ecosystem."
+
+[[affiliations.logos]]
+name = "Entalpic"
+src = "/images/partners/entalpic.png"
+srcDark = "/images/partners/entalpic-dark.png"
+class = "lemat-logo--entalpic"
+width = 128
+height = 38
+url = "https://entalpic.ai"
+
+[[affiliations.logos]]
+name = "Hugging Face"
+src = "/images/partners/huggingface.png"
+srcDark = "/images/partners/huggingface.png"
+class = "lemat-logo--huggingface"
+width = 128
+height = 38
+url = "https://huggingface.co/LeMaterial"
+
+[[affiliations.logos]]
+name = "LIAC"
+src = "/images/partners/liac.png"
+class = "lemat-logo--liac"
+width = 128
+height = 38
+url = "https://www.epfl.ch/labs/liac/"
+
+[[affiliations.logos]]
+name = "FAIR-Meta"
+src = "/images/partners/fair-meta.svg"
+class = "lemat-logo--fair-meta"
+width = 128
+height = 38
+url = "https://www.meta.com/"
+
+[[affiliations.logos]]
+name = "Mila"
+src = "/images/partners/mila.svg"
+class = "lemat-logo--mila"
+width = 128
+height = 38
+url = "https://mila.quebec/en/"
+
+[[affiliations.logos]]
+name = "MIT"
+src = "/images/partners/mit.svg"
+class = "lemat-logo--mit"
+width = 128
+height = 38
+url = "https://www.mit.edu/"
+
+[[affiliations.logos]]
+name = "UCSB"
+src = "/images/partners/ucsb.svg"
+class = "lemat-logo--ucsb"
+width = 128
+height = 38
+url = "https://www.ucsb.edu/"
+
+[[affiliations.logos]]
+name = "ETH Zurich"
+src = "/images/partners/eth-zurich.svg"
+class = "lemat-logo--eth-zurich"
+width = 128
+height = 38
+url = "https://ethz.ch/"
+
+[[affiliations.logos]]
+name = "Paul Scherrer Institute"
+src = "/images/partners/paul-scherrer-institute.svg"
+class = "lemat-logo--psi"
+width = 128
+height = 38
+url = "https://www.psi.ch/"
+
+[[affiliations.logos]]
+name = "NCCR MARVEL"
+src = "/images/partners/nccr-marvel.svg"
+class = "lemat-logo--nccr"
+width = 128
+height = 38
+url = "https://www.nccr-marvel.ch/"
+
+[[affiliations.logos]]
+name = "ENSA Lyon UMR MAP ARIA"
+src = "/images/partners/ensa-lyon-umr-map-aria.svg"
+class = "lemat-logo--ensa-lyon"
+width = 128
+height = 38
+url = "https://www.ensa-lyon.fr/"
+
+[[affiliations.logos]]
+name = "Newfound Materials"
+src = "/images/partners/newfound-materials.avif"
+class = "lemat-logo--newfound"
+width = 128
+height = 38
+url = "https://newfoundmaterials.com/"
+
+[contribute]
+title = "Contribute to LeMaterial"
+intro = "Bring your ideas, datasets, models, or tooling. We welcome contributions from students, researchers, and practitioners."
+
+[[contribute.cards]]
+title = "Join the Community"
+description = "Connect with contributors, ask questions, and follow ongoing initiatives in Slack."
+url = "https://join.slack.com/t/lematerial/shared_invite/zt-3isyxmscz-2Gq5x6aRhYaeauMQmo~SCQ"
+label = "Join Slack"
+external = true
+
+[[contribute.cards]]
+title = "Propose a Project"
+description = "Share a benchmark, dataset, or tooling idea and help shape upcoming collaborative work."
+url = "https://docs.google.com/forms/d/e/1FAIpQLSfTIMVBLD2x62A32AGQ8PlCZamIUh3zrCr8lZlsEQmBX7HqYA/viewform"
+label = "Submit an idea"
+external = true
+
+[[contribute.cards]]
+title = "Contribute to the Docs"
+description = "Improve tutorials and project pages by opening pull requests on the website repository."
+url = "https://github.com/LeMaterial/lematerial-website"
+label = "Open repository"
+external = true

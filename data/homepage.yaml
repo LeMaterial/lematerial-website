@@ -1,188 +1,148 @@
 hero:
   title: "LeMaterial"
-  lead: "LeMaterial builds open, high-quality datasets and reproducible workflows so materials ML research is easier to start, compare, and extend."
-  support: "A collaboration between academia, industry, and open-science communities."
+  lead: "Open-source collaboration to accelerate materials research across data, models, and tools."
+  support: "Built by an open community of materials scientists, ML researchers, and engineers."
   actions:
-    - label: "Explore datasets"
-      url: "/docs/about/datasets/"
+    - label: "HuggingFace"
+      url: "https://huggingface.co/LeMaterial"
       variant: "primary"
+      external: true
+      icon: "huggingface"
+    - label: "Github"
+      url: "https://github.com/lematerial"
+      variant: "primary"
+      external: true
+      icon: "github"
     - label: "Slack"
       url: "https://join.slack.com/t/lematerial/shared_invite/zt-3isyxmscz-2Gq5x6aRhYaeauMQmo~SCQ"
       variant: "outline"
       external: true
-    - label: "Join LeMaterial"
+      icon: "slack"
+    - label: "Join"
       url: "https://docs.google.com/forms/d/e/1FAIpQLSd1v4yn5mxYL6QCCW33o7lRB37-MAFfLDXmpTN1nlhsYEGmTg/viewform"
       variant: "outline"
       external: true
 
 updates:
-  title: "Latest updates"
-  intro: "Recent milestones across datasets and tooling, with the newest highlight first."
+  title: "Latest from LeMaterial"
   items:
-    - date: "2026-02-27"
-      title: "LeMaterial LLM-synthesis workflows updated"
-      description: "Recent work in the LLM synthesis repository expands project capabilities for synthesis-focused research workflows."
-      label: "View repository update"
-      url: "https://github.com/LeMaterial/lematerial-llm-synthesis"
-      external: true
     - date: "2026-02-20"
       title: "LeMat-GenBench released"
-      description: "LeMat-GenBench is now released with a public leaderboard hosted on Hugging Face."
+      description: "LeMat-GenBench is now released with a public leaderboard on Hugging Face."
       label: "View leaderboard"
       url: "https://huggingface.co/spaces/LeMaterial/LeMat-GenBench"
       external: true
-    - date: "2026-02-18"
-      title: "LeMat-Synth-Papers released on Hugging Face"
-      description: "A dedicated synthesis-paper dataset release extending the LeMat-Synth line for document-centered workflows."
-      label: "View dataset card"
-      url: "https://huggingface.co/datasets/LeMaterial/LeMat-Synth-Papers"
-      external: true
-
-contribute:
-  title: "How to engage with LeMaterial"
-  intro: "Choose where to start, then move directly to the right resource."
-  cards:
-    - title: "Understand the mission"
-      description: "Read scope, principles, governance, and how LeMaterial fits in the materials ML ecosystem."
-      label: "Read mission"
-      url: "/docs/about/the-mission/"
-
-    - title: "Join active collaboration"
-      description: "Join Slack, introduce your interests, and connect to active dataset and tooling efforts."
-      label: "How to join"
-      url: "/docs/about/how-to-join/"
-
-    - title: "Propose a project"
-      description: "Submit a project idea for datasets, benchmarks, workflows, or community infrastructure."
-      label: "Suggest a project"
-      url: "https://docs.google.com/forms/d/e/1FAIpQLSfTIMVBLD2x62A32AGQ8PlCZamIUh3zrCr8lZlsEQmBX7HqYA/viewform"
-      external: true
+    - date: "2025-11-26"
+      title: "Reading Group sessions are live"
+      description: "Join recurring discussions on AI for materials science with paper walkthroughs and open Q&A."
+      label: "See sessions"
+      url: "/docs/reading-group/"
+      external: false
+    - date: "2025-10-10"
+      title: "LeMat datasets are available on Hugging Face"
+      description: "Explore LeMat-Bulk, LeMat-BulkUnique, LeMat-Traj, and LeMat-Synth from a single open hub."
+      label: "Browse datasets"
+      url: "/docs/about/datasets/"
+      external: false
 
 affiliations:
-  title: "Contributors"
-  intro: "Organizations active across LeMaterial releases."
+  title: "Partners and Collaborators"
+  intro: "LeMaterial is built with support from research and industry collaborators across the ecosystem."
   logos:
     - name: "Entalpic"
-      group: "Industry & Open Ecosystem"
       src: "/images/partners/entalpic.png"
       srcDark: "/images/partners/entalpic-dark.png"
-      url: "https://entalpic.ai/"
       class: "lemat-logo--entalpic"
-      width: 600
-      height: 81
+      width: 128
+      height: 38
+      url: "https://entalpic.ai"
     - name: "Hugging Face"
-      group: "Industry & Open Ecosystem"
       src: "/images/partners/huggingface.png"
-      srcDark: "/images/partners/huggingface-dark.png"
-      url: "https://huggingface.co/"
+      srcDark: "/images/partners/huggingface.png"
       class: "lemat-logo--huggingface"
-      width: 600
-      height: 136
-    - name: "IBM"
-      group: "Industry & Open Ecosystem"
-      src: "/images/partners/ibm.png"
-      url: "https://www.ibm.com/"
-      class: "lemat-logo--ibm"
-      width: 368
-      height: 137
-    - name: "Mila"
-      group: "Academia & Research Labs"
-      src: "/images/partners/mila.svg"
-      url: "https://mila.quebec/en"
-      class: "lemat-logo--mila"
-      width: 170
-      height: 50
-    - name: "FAIR at Meta"
-      group: "Industry & Open Ecosystem"
-      src: "/images/partners/fair-meta.svg"
-      url: "https://ai.meta.com/research/"
-      class: "lemat-logo--fair-meta"
-      width: 290
-      height: 191
-    - name: "AI Alliance"
-      group: "Industry & Open Ecosystem"
-      src: "/images/partners/ai-alliance.png"
-      url: "https://thealliance.ai/"
-      class: "lemat-logo--ai-alliance"
-      width: 600
-      height: 122
+      width: 128
+      height: 38
+      url: "https://huggingface.co/LeMaterial"
     - name: "EPFL"
-      group: "Academia & Research Labs"
       src: "/images/partners/epfl.png"
-      url: "https://www.epfl.ch/"
       class: "lemat-logo--epfl"
-      width: 1280
-      height: 372
-    - name: "Swiss Federal Institute of Technology Zurich"
-      group: "Academia & Research Labs"
-      src: "/images/partners/eth-zurich.svg"
-      url: "https://ethz.ch/en.html"
-      class: "lemat-logo--eth-zurich"
-      width: 1000
-      height: 331
-    - name: "Georgia Institute of Technology"
-      group: "Academia & Research Labs"
-      src: "/images/partners/georgia-tech.jpg"
-      url: "https://www.gatech.edu/"
-      class: "lemat-logo--gatech"
-      width: 480
-      height: 252
-    - name: "ENSA Lyon UMR-MAP Aria"
-      group: "Academia & Research Labs"
-      src: "/images/partners/ensa-lyon-umr-map-aria.svg"
-      url: "https://www.lyon.archi.fr/"
-      class: "lemat-logo--ensa-lyon"
-      width: 500
-      height: 193
-    - name: "University of California, Santa Barbara"
-      group: "Academia & Research Labs"
-      src: "/images/partners/ucsb.svg"
-      url: "https://www.ucsb.edu/"
-      class: "lemat-logo--ucsb"
-      width: 250
-      height: 20
-    - name: "Paul Scherrer Institute"
-      group: "Academia & Research Labs"
-      src: "/images/partners/paul-scherrer-institute.svg"
-      url: "https://www.psi.ch/en"
-      class: "lemat-logo--psi"
-      width: 512
-      height: 211
-    - name: "Johns Hopkins University"
-      group: "Academia & Research Labs"
-      src: "/images/partners/johns-hopkins-university.png"
-      url: "https://www.jhu.edu/"
-      class: "lemat-logo--jhu"
-      width: 320
-      height: 85
-    - name: "University of California, Davis"
-      group: "Academia & Research Labs"
-      src: "/images/partners/uc-davis.svg"
-      url: "https://www.ucdavis.edu/"
-      class: "lemat-logo--uc-davis"
-      width: 220
-      height: 220
-    - name: "Massachusetts Institute of Technology"
-      group: "Academia & Research Labs"
+      width: 128
+      height: 38
+      url: "https://www.epfl.ch/"
+    - name: "FAIR-Meta"
+      src: "/images/partners/fair-meta.svg"
+      class: "lemat-logo--fair-meta"
+      width: 128
+      height: 38
+      url: "https://www.meta.com/"
+    - name: "Mila"
+      src: "/images/partners/mila.svg"
+      class: "lemat-logo--mila"
+      width: 128
+      height: 38
+      url: "https://mila.quebec/en/"
+    - name: "MIT"
       src: "/images/partners/mit.svg"
-      url: "https://www.mit.edu/"
       class: "lemat-logo--mit"
-      width: 3660
-      height: 1040
+      width: 128
+      height: 38
+      url: "https://www.mit.edu/"
+    - name: "UCSB"
+      src: "/images/partners/ucsb.svg"
+      class: "lemat-logo--ucsb"
+      width: 128
+      height: 38
+      url: "https://www.ucsb.edu/"
+    - name: "ETH Zurich"
+      src: "/images/partners/eth-zurich.svg"
+      class: "lemat-logo--eth-zurich"
+      width: 128
+      height: 38
+      url: "https://ethz.ch/"
+    - name: "Paul Scherrer Institute"
+      src: "/images/partners/paul-scherrer-institute.svg"
+      class: "lemat-logo--psi"
+      width: 128
+      height: 38
+      url: "https://www.psi.ch/"
     - name: "NCCR MARVEL"
-      group: "Academia & Research Labs"
       src: "/images/partners/nccr-marvel.svg"
-      url: "https://nccr-marvel.ch/"
       class: "lemat-logo--nccr"
-      width: 695
-      height: 363
+      width: 128
+      height: 38
+      url: "https://www.nccr-marvel.ch/"
+    - name: "ENSA Lyon UMR MAP ARIA"
+      src: "/images/partners/ensa-lyon-umr-map-aria.svg"
+      class: "lemat-logo--ensa-lyon"
+      width: 128
+      height: 38
+      url: "https://www.ensa-lyon.fr/"
     - name: "Newfound Materials"
-      group: "Industry & Open Ecosystem"
       src: "/images/partners/newfound-materials.avif"
-      url: "https://www.newfoundmaterials.com/"
       class: "lemat-logo--newfound"
-      width: 600
-      height: 128
+      width: 128
+      height: 38
+      url: "https://newfoundmaterials.com/"
+
+contribute:
+  title: "Contribute to LeMaterial"
+  intro: "Bring your ideas, datasets, models, or tooling. We welcome contributions from students, researchers, and practitioners."
+  cards:
+    - title: "Join the Community"
+      description: "Connect with contributors, ask questions, and follow ongoing initiatives in Slack."
+      label: "Join Slack"
+      url: "https://join.slack.com/t/lematerial/shared_invite/zt-3isyxmscz-2Gq5x6aRhYaeauMQmo~SCQ"
+      external: true
+    - title: "Propose a Project"
+      description: "Share a benchmark, dataset, or tooling idea and help shape upcoming collaborative work."
+      label: "Submit an idea"
+      url: "https://docs.google.com/forms/d/e/1FAIpQLSfTIMVBLD2x62A32AGQ8PlCZamIUh3zrCr8lZlsEQmBX7HqYA/viewform"
+      external: true
+    - title: "Contribute to the Docs"
+      description: "Improve tutorials and project pages by opening pull requests on the website repository."
+      label: "Open repository"
+      url: "https://github.com/LeMaterial/lematerial-website"
+      external: true
 
 newsletter:
   title: "Stay in the loop"

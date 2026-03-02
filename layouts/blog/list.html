@@ -1,0 +1,51 @@
+{{ define "main" }}
+{{ $posts := .RegularPages.ByDate.Reverse }}
+<section class="lemat-blog-simple">
+  <div class="lemat-blog-simple__shell">
+    <header class="lemat-blog-simple__header">
+      <p class="lemat-blog-simple__kicker">LeMaterial</p>
+      <h1>{{ .Title }}</h1>
+      {{ with .Params.description }}
+        <p class="lemat-blog-simple__intro">{{ . }}</p>
+      {{ end }}
+    </header>
+
+    {{ if .Content }}
+      <div class="lemat-blog-simple__content">
+        {{ .Content }}
+      </div>
+    {{ end }}
+
+    <section aria-labelledby="lemat-blog-posts-title">
+      <div class="lemat-blog-simple__posts-head">
+        <h2 id="lemat-blog-posts-title">Posts</h2>
+        <p>{{ len $posts }} total</p>
+      </div>
+
+      <div class="lemat-blog-simple__grid">
+        {{ range $posts }}
+          {{ $post := . }}
+          <article class="lemat-blog-simple__card">
+            <div class="lemat-blog-simple__card-meta">
+              <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "Jan 2, 2006" }}</time>
+            </div>
+            <h3><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
+            {{ with .Params.summary }}
+              <p>{{ . }}</p>
+            {{ else }}
+              <p>{{ .Summary }}</p>
+            {{ end }}
+            <div class="lemat-blog-simple__actions">
+              {{ with .Params.external_url }}
+                <a href="{{ . }}" target="_blank" rel="noopener noreferrer">
+                  {{ with $post.Params.external_label }}{{ . }}{{ else }}Read original{{ end }}
+                </a>
+              {{ end }}
+            </div>
+          </article>
+        {{ end }}
+      </div>
+    </section>
+  </div>
+</section>
+{{ end }}
