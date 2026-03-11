@@ -178,8 +178,8 @@ label = "Submit an idea"
 external = true
 
 [[contribute.cards]]
-title = "Contribute to the Docs"
-description = "Improve tutorials and project pages by opening pull requests on the website repository."
-url = "https://github.com/LeMaterial/lematerial-website"
-label = "Open repository"
+title = "Contribute on GitHub"
+description = "Open issues or pull requests across LeMaterial projects, from datasets and models to tooling and infrastructure."
+url = "https://github.com/lematerial"
+label = "Browse projects"
 external = true

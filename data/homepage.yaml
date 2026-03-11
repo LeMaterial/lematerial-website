@@ -138,10 +138,10 @@ contribute:
       label: "Submit an idea"
       url: "https://docs.google.com/forms/d/e/1FAIpQLSfTIMVBLD2x62A32AGQ8PlCZamIUh3zrCr8lZlsEQmBX7HqYA/viewform"
       external: true
-    - title: "Contribute to the Docs"
-      description: "Improve tutorials and project pages by opening pull requests on the website repository."
-      label: "Open repository"
-      url: "https://github.com/LeMaterial/lematerial-website"
+    - title: "Contribute on GitHub"
+      description: "Open issues or pull requests across LeMaterial projects, from datasets and models to tooling and infrastructure."
+      label: "Browse projects"
+      url: "https://github.com/lematerial"
       external: true
 
 newsletter:
