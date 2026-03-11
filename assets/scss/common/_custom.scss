@@ -921,6 +921,10 @@ html[data-bs-theme="dark"] .rg-suggest-card {
     gap: 0.45rem;
 }
 
+.lemat-hero__action-label {
+    display: inline-flex;
+}
+
 .lemat-homepage .lemat-hero__actions .btn-primary {
     --bs-btn-bg: #6a3a94;
     --bs-btn-border-color: #6a3a94;
@@ -1329,7 +1333,7 @@ html[data-bs-theme="dark"] .rg-suggest-card {
 
 @media screen and (max-width: 640px) {
     .lemat-homepage {
-        padding-top: 0.9rem;
+        padding-top: 1.5rem;
     }
 
     .lemat-hero,
@@ -1337,12 +1341,41 @@ html[data-bs-theme="dark"] .rg-suggest-card {
         border-radius: 13px;
     }
 
-    .lemat-hero__actions {
-        flex-direction: column;
-        align-items: stretch;
+    .lemat-hero {
+        padding-top: 1.75rem;
     }
 
-    .lemat-hero__actions .btn,
+    .lemat-hero__actions {
+        flex-direction: row;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
+    .lemat-hero__actions .btn {
+        width: auto;
+        min-width: 0;
+        height: 3rem;
+        padding: 0.55rem 1rem;
+        justify-content: center;
+        border-radius: 999px;
+        flex: 0 0 auto;
+    }
+
+    .lemat-hero__actions .btn.lemat-hero__action--icon {
+        width: 3rem;
+        padding: 0;
+        gap: 0;
+    }
+
+    .lemat-hero__actions .btn.lemat-hero__action--icon .lemat-hero__action-label {
+        display: none;
+    }
+
+    .lemat-hero__actions .btn.lemat-hero__action--icon .lemat-hero__action-icon {
+        width: 1.25rem;
+        height: 1.25rem;
+    }
+
     .lemat-mailing-form button {
         width: 100%;
     }
@@ -1370,7 +1403,7 @@ html[data-bs-theme="dark"] .rg-suggest-card {
     }
 
     .lemat-affiliations__name {
-        display: block;
+        display: none;
     }
 }
 

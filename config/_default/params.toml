@@ -2,6 +2,7 @@
 title = "LeMaterial"
 description = "LeMaterial"
 images = ["cover.png"]
+footer = 'LeMaterial <span class="mx-1">|</span> <a href="mailto:contact@lematerial.org">Contact</a>'
 
 # mainSections
 mainSections = ["docs", "blog"]

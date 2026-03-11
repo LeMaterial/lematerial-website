@@ -9,7 +9,7 @@
         <p class="lemat-hero__lead">{{ .hero.lead }}</p>
         <div class="lemat-hero__actions">
           {{ range .hero.actions }}
-          <a class="btn btn-lg rounded-pill{{ if eq .variant "primary" }} btn-primary{{ else }} btn-outline-primary{{ end }}" href="{{ .url }}"{{ if .external }} target="_blank" rel="noopener noreferrer"{{ end }}>
+          <a class="btn btn-lg rounded-pill{{ if eq .variant "primary" }} btn-primary{{ else }} btn-outline-primary{{ end }}{{ if .icon }} lemat-hero__action--icon{{ end }}" href="{{ .url }}" aria-label="{{ .label }}"{{ if .external }} target="_blank" rel="noopener noreferrer"{{ end }}>
             {{ if eq .icon "huggingface" }}
             <span class="lemat-hero__action-icon lemat-hero__action-icon--fill" aria-hidden="true">{{ readFile "static/images/icons/huggingface.svg" | safeHTML }}</span>
             {{ else if eq .icon "github" }}
@@ -17,7 +17,7 @@
             {{ else if eq .icon "slack" }}
             <span class="lemat-hero__action-icon" aria-hidden="true">{{ readFile "static/images/icons/slack.svg" | safeHTML }}</span>
             {{ end }}
-            <span>{{ .label }}</span>
+            <span class="lemat-hero__action-label">{{ .label }}</span>
           </a>
           {{ end }}
         </div>
