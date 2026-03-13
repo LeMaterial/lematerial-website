@@ -29,13 +29,13 @@ seo:
       <p class="rg-scope">We cover foundation models, chemistry ML, representation learning, and benchmarks.</p>
       <div class="rg-cta">
         <a class="rg-btn rg-btn-primary rg-btn-sync" href="https://calendar.google.com/calendar/u/0/r/eventedit?dates=20251126T163000Z/20251126T173000Z&details=Regular+sessions+on+AI+for+materials+science+and+chemistry,+co-hosted+by+Entalpic+and+The+AI+Alliance.+This+is+a+placeholder+meeting,+for+updated+dates+and+topics+please+visit+https://www.linkedin.com/in/luispintoc/&location=meet.google.com/hcg-szpf-ibh&text=%E2%9A%9B%EF%B8%8F+LeMaterial+Reading+Group&recur=RRULE:FREQ%3DWEEKLY;BYDAY%3DWE&ctz=Europe/Paris">Stay in sync with all sessions</a>
-        <a class="rg-btn rg-btn-ghost" href="https://join.slack.com/t/lematerial/shared_invite/zt-3isyxmscz-2Gq5x6aRhYaeauMQmo~SCQ">Join LeMaterial Slack</a>
+        {{< slack-link class="rg-btn rg-btn-ghost" label="Join LeMaterial Slack" >}}
       </div>
       <p class="rg-cta-note">Need a one-off invite instead? Use <strong>Add to Calendar</strong> in the next session card.</p>
       <p class="rg-note"><strong>Open to everyone.</strong> Students, researchers, engineers, and anyone curious about AI for materials science is welcome to join.</p>
       <div class="rg-hero-links">
         <span>Stay in the loop:</span>
-        <a class="rg-link" href="https://join.slack.com/t/lematerial/shared_invite/zt-3isyxmscz-2Gq5x6aRhYaeauMQmo~SCQ">Slack</a>
+        {{< slack-link class="rg-link" label="Slack" >}}
         <a class="rg-link" href="https://www.linkedin.com/in/luispintoc/">LinkedIn</a>
       </div>
     </div>

@@ -1,0 +1,103 @@
+{{- $data := site.Data.publications -}}
+{{- $items := slice -}}
+{{- with $data.items -}}
+  {{- if reflect.IsSlice . -}}
+    {{- $items = . -}}
+  {{- end -}}
+{{- end -}}
+{{- $items = sort $items "date" "desc" -}}
+
+{{- $years := slice -}}
+{{- range $items -}}
+  {{- $itemYear := int .year -}}
+  {{- if and (gt $itemYear 0) (not (in $years $itemYear)) -}}
+    {{- $years = $years | append $itemYear -}}
+  {{- end -}}
+{{- end -}}
+
+<div class="lemat-publications-page">
+  {{- if gt (len $items) 0 -}}
+    {{- range $year := $years -}}
+      {{- $yearItems := where $items "year" $year -}}
+      <section class="lemat-publications-year" aria-labelledby="publications-{{ $year }}">
+        <header class="lemat-publications-year__header">
+          <h2 id="publications-{{ $year }}">{{ $year }}</h2>
+          <p>{{ len $yearItems }} publication{{ if ne (len $yearItems) 1 }}s{{ end }}</p>
+        </header>
+        <div class="lemat-publications-grid">
+          {{- range $yearItems -}}
+            {{- $project := .project | default "LeMaterial" -}}
+            {{- $cardYear := .year | default $year -}}
+            {{- $thumbnail := .thumbnail | default "/images/cover.png" -}}
+            {{- $thumbAlt := .thumbnail_alt | default (printf "Thumbnail for the %s publication" $project) -}}
+            {{- $metaParts := slice -}}
+            {{- with .authors_short -}}
+              {{- $metaParts = $metaParts | append . -}}
+            {{- end -}}
+            {{- with .arxiv_id -}}
+              {{- $metaParts = $metaParts | append (printf "arXiv:%s" .) -}}
+            {{- end -}}
+            {{- $metaParts = $metaParts | append (printf "%v" $cardYear) -}}
+            {{- $primaryLink := .paper_url | default .dataset_url -}}
+            <article class="lemat-publication-card">
+              {{- if $primaryLink -}}
+                <a class="lemat-publication-card__thumb" href="{{ $primaryLink | safeURL }}" target="_blank" rel="noopener">
+                  <img src="{{ $thumbnail | safeURL }}" alt="{{ $thumbAlt }}" loading="lazy">
+                </a>
+              {{- else -}}
+                <div class="lemat-publication-card__thumb">
+                  <img src="{{ $thumbnail | safeURL }}" alt="{{ $thumbAlt }}" loading="lazy">
+                </div>
+              {{- end -}}
+              <div class="lemat-publication-card__body">
+                <p class="lemat-publication-card__project">{{ $project }}</p>
+                <h3>
+                  {{- if $primaryLink -}}
+                    <a href="{{ $primaryLink | safeURL }}" target="_blank" rel="noopener">{{ .title }}</a>
+                  {{- else -}}
+                    {{ .title }}
+                  {{- end -}}
+                </h3>
+                <p class="lemat-publication-card__meta">{{ delimit $metaParts " · " }}</p>
+                {{- with .summary -}}
+                  <p class="lemat-publication-card__summary">{{ . }}</p>
+                {{- end -}}
+                <div class="lemat-publication-card__links">
+                  {{- with .paper_url -}}
+                    <a href="{{ . | safeURL }}" target="_blank" rel="noopener">Paper</a>
+                  {{- end -}}
+                  {{- with .dataset_url -}}
+                    <a href="{{ . | safeURL }}" target="_blank" rel="noopener">Dataset</a>
+                  {{- end -}}
+                  {{- with .leaderboard_url -}}
+                    <a href="{{ . | safeURL }}" target="_blank" rel="noopener">Leaderboard</a>
+                  {{- end -}}
+                  {{- with .code_url -}}
+                    <a href="{{ . | safeURL }}" target="_blank" rel="noopener">Code</a>
+                  {{- end -}}
+                </div>
+              </div>
+            </article>
+          {{- end -}}
+        </div>
+      </section>
+    {{- end -}}
+  {{- end -}}
+
+  {{- with $data.empty_years -}}
+    {{- range sort . "year" "desc" -}}
+      {{- $emptyYear := int .year -}}
+      {{- if not (in $years $emptyYear) -}}
+        <section class="lemat-publications-year lemat-publications-year--muted" aria-labelledby="publications-{{ $emptyYear }}">
+          <header class="lemat-publications-year__header">
+            <h2 id="publications-{{ $emptyYear }}">{{ $emptyYear }}</h2>
+            <p>{{ .label | default "No publications listed" }}</p>
+          </header>
+          {{- with .note -}}
+            <p class="lemat-publications-empty">{{ . }}</p>
+          {{- end -}}
+        </section>
+      {{- end -}}
+    {{- end -}}
+  {{- end -}}
+</div>

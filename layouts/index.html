@@ -1,66 +1,114 @@
 {{ define "main" }}
+{{ $page := . }}
+{{ with site.Data.homepage }}
+<section class="lemat-homepage">
+  <div class="container">
+    <section class="lemat-hero" aria-labelledby="lemat-hero-title">
+      <div class="lemat-hero__content">
+        <h1 id="lemat-hero-title" class="lemat-hero__title">{{ .hero.title }}</h1>
+        <p class="lemat-hero__lead">{{ .hero.lead }}</p>
+        <div class="lemat-hero__actions">
+          {{ range .hero.actions }}
+          {{ $href := .url }}
+          {{ if .slackInvite }}
+            {{ $href = site.Params.slackInviteUrl }}
+          {{ end }}
+          <a class="btn btn-lg rounded-pill{{ if eq .variant "primary" }} btn-primary{{ else }} btn-outline-primary{{ end }}{{ if .icon }} lemat-hero__action--icon{{ end }}" href="{{ $href }}" aria-label="{{ .label }}"{{ if .external }} target="_blank" rel="noopener noreferrer"{{ end }}>
+            {{ if eq .icon "huggingface" }}
+            <span class="lemat-hero__action-icon lemat-hero__action-icon--fill" aria-hidden="true">{{ readFile "static/images/icons/huggingface.svg" | safeHTML }}</span>
+            {{ else if eq .icon "github" }}
+            <span class="lemat-hero__action-icon" aria-hidden="true">{{ readFile "static/images/icons/github.svg" | safeHTML }}</span>
+            {{ else if eq .icon "slack" }}
+            <span class="lemat-hero__action-icon" aria-hidden="true">{{ readFile "static/images/icons/slack.svg" | safeHTML }}</span>
+            {{ end }}
+            <span class="lemat-hero__action-label">{{ .label }}</span>
+          </a>
+          {{ end }}
+        </div>
+        <p class="lemat-hero__support">{{ .hero.support }}</p>
+      </div>
+    </section>
+
+    <section class="lemat-section lemat-updates" id="latest-updates" aria-labelledby="lemat-updates-title">
+      <div class="lemat-section__heading">
+        <p class="lemat-section__kicker">Updates</p>
+        <h2 id="lemat-updates-title">{{ .updates.title }}</h2>
+      </div>
+      <div class="lemat-updates__grid">
+        {{ range $index, $item := .updates.items }}
+        <article class="lemat-update-card{{ if eq $index 0 }} lemat-update-card--featured{{ end }}">
+          <div class="lemat-update-card__meta">
+            <time datetime="{{ $item.date }}">{{ $item.date }}</time>
+          </div>
+          <h3>{{ $item.title }}</h3>
+          <p>{{ $item.description }}</p>
+          <a href="{{ $item.url }}"{{ if $item.external }} target="_blank" rel="noopener noreferrer"{{ end }}>{{ $item.label }}</a>
+        </article>
+        {{ end }}
+      </div>
+    </section>
+
+    <section class="lemat-section lemat-affiliations" aria-labelledby="lemat-affiliations-title">
+      <div class="lemat-section__heading lemat-section__heading--compact">
+        <h2 id="lemat-affiliations-title">{{ .affiliations.title }}</h2>
+        <p>{{ .affiliations.intro }}</p>
+      </div>
+      <div class="lemat-affiliations__grid" role="list">
+        {{ range .affiliations.logos }}
+        <div class="lemat-affiliations__item" role="listitem">
+          <a href="{{ .url }}" target="_blank" rel="noopener noreferrer" aria-label="{{ .name }}" title="{{ .name }}">
+            {{ if .srcDark }}
+            <img src="{{ .src }}" alt="{{ .name }}" class="{{ .class }} lemat-logo-light-asset" width="{{ .width }}" height="{{ .height }}" loading="lazy" decoding="async">
+            <img src="{{ .srcDark }}" alt="{{ .name }}" class="{{ .class }} lemat-logo-dark-asset" width="{{ .width }}" height="{{ .height }}" loading="lazy" decoding="async" onerror="this.style.display='none'; if (this.previousElementSibling) { this.previousElementSibling.style.display='block'; }">
+            {{ else }}
+            <img src="{{ .src }}" alt="{{ .name }}" class="{{ .class }}" width="{{ .width }}" height="{{ .height }}" loading="lazy" decoding="async">
+            {{ end }}
+            <span class="lemat-affiliations__name">{{ .name }}</span>
+          </a>
+        </div>
+        {{ end }}
+      </div>
+    </section>
+
+    <section class="lemat-section lemat-contribute" aria-labelledby="lemat-contribute-title">
+      <div class="lemat-section__heading">
+        <p class="lemat-section__kicker">Get Involved</p>
+        <h2 id="lemat-contribute-title">{{ .contribute.title }}</h2>
+        <p>{{ .contribute.intro }}</p>
+      </div>
+      <div class="lemat-contribute__grid">
+        {{ range .contribute.cards }}
+        {{ $href := .url }}
+        {{ if .slackInvite }}
+          {{ $href = site.Params.slackInviteUrl }}
+        {{ end }}
+        <article class="lemat-contribute-card">
+          <h3>{{ .title }}</h3>
+          <p>{{ .description }}</p>
+          <a href="{{ $href }}"{{ if .external }} target="_blank" rel="noopener noreferrer"{{ end }}>{{ .label }}</a>
+        </article>
+        {{ end }}
+      </div>
+    </section>
+
+  </div>
+</section>
+{{ else }}
 <section class="section container-fluid mt-n3 pb-3">
-    <div class="row justify-content-center">
-        <div class="col-lg-12 text-center">
-            <h1>{{ .Title }}</h1>
-        </div>
-        <div class="col-lg-9 col-xl-8 text-center">
-            <p class="lead">{{ .Params.lead | safeHTML }}</p>
-            <a class="btn btn-primary btn-cta rounded-pill btn-lg my-3"
-               href="/docs/{{ if site.Params.doks.docsVersioning }}{{ site.Params.doks.docsVersion }}/{{ end }}about/the-mission/"
-               role="button">Learn more...</a>
-            {{ .Content }}
-        </div>
+  <div class="row justify-content-center">
+    <div class="col-lg-12 text-center">
+      <h1>{{ $page.Title }}</h1>
     </div>
-</section>
-
-<!-- ===== Partners section directly under the hero ===== -->
-<section class="section section-md section-features">
-  <div class="container text-center">
-
-    <!-- First row: An initiative from -->
-    <p class="h5 mb-4 text-start">An initiative from:</p>
-    <div class="row justify-content-center mb-5">
-  <div class="col-12 d-flex justify-content-center align-items-center"
-       style="gap: 40px; flex-wrap: nowrap;">
-
-    <!-- Entalpic link — NO MARGIN HERE -->
-    <a href="https://entalpic.ai" target="_blank" rel="noopener noreferrer">
-      <img src="/images/partners/entalpic.png" alt="Entalpic"
-           style="height:50px; width:auto; display:block;">
-    </a>
-
-    <!-- Hugging Face link — ONLY THIS ONE HAS margin-left -->
-    <a href="https://huggingface.co/LeMaterial" target="_blank" rel="noopener noreferrer"
-       style="margin-left:20px;">
-      <img src="/images/partners/huggingface.png" alt="Hugging Face"
-           style="height:95px; width:auto; display:block;">
-    </a>
-
-  </div>
-</div>
-
-
-    <!-- Second row: In collaboration with -->
-    <p class="h5 mb-4 text-start">In collaboration with:</p>
-    <div class="row justify-content-center align-items-center">
-      <div class="col-6 col-md-3 d-flex justify-content-center mb-3">
-        <img src="/images/partners/ibm.png" alt="IBM" style="max-height:64px;">
-      </div>
-      <div class="col-6 col-md-3 d-flex justify-content-center mb-3">
-        <img src="/images/partners/ai-alliance.png" alt="AI Alliance"
-     style="max-height:64px; max-width:180px; width:auto; object-fit:contain;">
-      </div>
-      <div class="col-6 col-md-3 d-flex justify-content-center mb-3">
-        <img src="/images/partners/epfl.png" alt="EPFL" style="max-height:64px;">
-      </div>
-      <div class="col-6 col-md-3 d-flex justify-content-center mb-3">
-        <span style="font-size:1.25rem;">More to come…</span>
-      </div>
+    <div class="col-lg-9 col-xl-8 text-center">
+      {{ with $page.Params.lead }}
+      <p class="lead">{{ . | safeHTML }}</p>
+      {{ end }}
+      {{ $page.Content }}
+      <a class="btn btn-primary btn-cta rounded-pill btn-lg my-3" href="/docs/about/the-mission/" role="button">Learn more</a>
     </div>
-
   </div>
 </section>
+{{ end }}
 {{ end }}
 
 {{ define "sidebar-footer" }}
