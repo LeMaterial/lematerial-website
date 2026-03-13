@@ -1,15 +1,3 @@
-- title: "Accelerating and scaling MLIP inference"
-  speaker: "Kevin Han"
-  date: "Wednesday, March 11, 2026"
-  date_iso: "2026-03-11"
-  time: "9:30 AM PT / 12:30 PM ET / 5:30 PM CET"
-  paper_title: "Smooth Dynamic Cutoffs for Machine Learning Interatomic Potentials"
-  paper_link: "https://arxiv.org/abs/2601.21147"
-  image_url: "https://utfs.io/f/VUSmVbigfv2Zd5jScevRDAygZ7acJfEFUxq9he3G6CQlMTBm"
-  meeting_link: "https://meet.google.com/hcg-szpf-ibh"
-  calendar_link: "https://calendar.google.com/calendar/event?action=TEMPLATE&tmeid=MGp2ODIzNzJyYjZrbmxhbmg4YjVvZDBrdGZfMjAyNjAzMTFUMTYzMDAwWiBkMjJlZGU4ZWNmYmE1YWFiZWMyZmYzNmI3Y2VmYTdkYTNjY2QxZmNiNjFiYjJlNDQxMjg4MjlmZDgwYzIwMjYyQGc&tmsrc=d22ede8ecfba5aabec2ff36b7cefa7da3ccd1fcb61bb2e44128829fd80c20262%40group.calendar.google.com"
-  description: |
-    MLIPs face two primary bottlenecks preventing them from reaching realistic simulation scale: inference time and memory consumption. In this talk, I will discuss two recent works focused on addressing both problems: 1) DistMLIP (ICLR 2026), a distributed inference platform for MLIPs predicated upon zero-redundancy 1-hop graph partitioning and 2) smooth dynamic cutoffs, a novel method to effectively prune edges of the underlying atomic graph while maintaining accuracy and accelerating inference.
 - title: "Zatom-1: A Multimodal Flow Foundation Model for 3D Molecules and Materials"
   speaker: "Alex Morehead, Rishabh Anand"
   date: "Wednesday, March 18, 2026"
@@ -22,3 +10,15 @@
   calendar_link: "https://calendar.google.com/calendar/event?action=TEMPLATE&tmeid=b2NoZ2sycHJhMmhjOXRzOTlzdDRqY3Z2cmdfMjAyNjAzMThUMTYzMDAwWiBkMjJlZGU4ZWNmYmE1YWFiZWMyZmYzNmI3Y2VmYTdkYTNjY2QxZmNiNjFiYjJlNDQxMjg4MjlmZDgwYzIwMjYyQGc&tmsrc=d22ede8ecfba5aabec2ff36b7cefa7da3ccd1fcb61bb2e44128829fd80c20262%40group.calendar.google.com"
   description: |
     We introduce Zatom-1, a multimodal foundation model for 3D small molecules and materials that generates realistic molecules, thermodynamically stable materials, and valid metal-organic frameworks while achieving competitive performance for PoseBusters and LeMat-GenBench. By pretraining across multiple atomistic modalities with a self-supervised generative flow matching objective, we demonstrate the first case of positive predictive transfer learning where modeling materials enhances molecular property prediction accuracy for downstream tasks like QM9 and Matbench. Zatom-1 is powered by an approximately equivariant transformer architecture that scales effectively in ambient space and outperforms existing equivariant and latent generative models.
+- title: "Leveraging Hidden-Space Representations Effectively in Bayesian Optimization for Experiment Design through Dimension-Aware Hyperpriors"
+  speaker: "Maximilian Fleck"
+  date: "Wednesday, April 8th, 2026"
+  date_iso: "2026-04-08"
+  time: "08:30 AM PT / 11:30 PM ET / 5:30 PM CET"
+  paper_title: "Leveraging Hidden-Space Representations Effectively in Bayesian Optimization for Experiment Design through Dimension-Aware Hyperpriors"
+  paper_link: "https://chemrxiv.org/doi/full/10.26434/chemrxiv.10001986/v2"
+  # image_url: 
+  meeting_link: "https://meet.google.com/hcg-szpf-ibh"
+  # calendar_link: ""
+  # description: |
+  #   We introduce Zatom-1, a multimodal foundation model for 3D small molecules and materials that generates realistic molecules, thermodynamically stable materials, and valid metal-organic frameworks while achieving competitive performance for PoseBusters and LeMat-GenBench. By pretraining across multiple atomistic modalities with a self-supervised generative flow matching objective, we demonstrate the first case of positive predictive transfer learning where modeling materials enhances molecular property prediction accuracy for downstream tasks like QM9 and Matbench. Zatom-1 is powered by an approximately equivariant transformer architecture that scales effectively in ambient space and outperforms existing equivariant and latent generative models.
