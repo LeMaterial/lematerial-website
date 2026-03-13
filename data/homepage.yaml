@@ -46,8 +46,8 @@ updates:
       external: false
 
 affiliations:
-  title: "Partners and Collaborators"
-  intro: "LeMaterial is built with support from research and industry collaborators across the ecosystem."
+  title: "Community Contributors"
+  intro: "LeMaterial brings together researchers and engineers from institutions across academia and industry. The organizations below reflect the affiliations of contributors to LeMaterial initiatives."
   logos:
     - name: "Entalpic"
       src: "/images/partners/entalpic.png"
