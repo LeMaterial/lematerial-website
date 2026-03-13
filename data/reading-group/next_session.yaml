@@ -22,11 +22,3 @@
   calendar_link: "https://calendar.google.com/calendar/event?action=TEMPLATE&tmeid=b2NoZ2sycHJhMmhjOXRzOTlzdDRqY3Z2cmdfMjAyNjA0MDhUMTUzMDAwWiBkMjJlZGU4ZWNmYmE1YWFiZWMyZmYzNmI3Y2VmYTdkYTNjY2QxZmNiNjFiYjJlNDQxMjg4MjlmZDgwYzIwMjYyQGc&tmsrc=d22ede8ecfba5aabec2ff36b7cefa7da3ccd1fcb61bb2e44128829fd80c20262%40group.calendar.google.com"
   description: |
     Hidden-space features (HSFs) of molecules, which are derived from pre-trained graph neural networks, Transformer models and large language models, offer an appealing alternative to conventional encodings for Bayesian optimisation (BO) in chemical experiment design. This talk explores how mismatched Gaussian process hyperpriors, rather than the representations themselves, can limit the effectiveness of HSFs in BO, and introduces a dimension-aware adaptive prior that maximises their potential in chemical experiment design.
-
-    **Speakers**
-
-    Guanming Chen is a second-year PhD student at Chimie ParisTech under the supervision of Prof. Thijs Stuyver. His research focuses on exploring latent representations derived from pretrained machine learning models and their applications to predictive chemistry and experiment design via Bayesian optimization.
-
-    Maximilian Fleck is a Research Engineer and Data Steward within the ChemAI Grand Programme with research focus on experimental design via Bayesian optimization, physically inspired machine learning, research data management, physical chemistry and thermodynamics.
-
-    Thijs Stuyver is a Junior Professor at Chimie ParisTech (ENSCP-PSL), where his research focuses on theoretical chemistry and ML for chemical reactivity discovery, including Bayesian optimization and surrogate models for data-efficient predictive chemistry.
