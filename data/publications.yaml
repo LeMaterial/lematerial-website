@@ -9,7 +9,7 @@ items:
     leaderboard_url: "https://huggingface.co/spaces/LeMaterial/LeMat-GenBench"
     code_url: "https://github.com/LeMaterial/lemat-genbench"
     summary: "A unified benchmark and evaluation suite for crystal generative models with standardized metrics and a reproducible leaderboard setup."
-    thumbnail: "/images/publications/lemat-genbench-figure1.webp"
+    thumbnail: "/images/publications/lemat-genbench-figure1.png"
     thumbnail_alt: "Figure 1 from the LeMat-GenBench paper"
 
   - project: "LeMat-Bulk"
@@ -22,7 +22,7 @@ items:
     dataset_url: "https://huggingface.co/datasets/LeMaterial/LeMat-Bulk"
     code_url: "https://github.com/LeMaterial/lematerial-hasher"
     summary: "A unified, de-duplicated large-scale materials dataset across major sources with robust structure hashing for interoperability."
-    thumbnail: "/images/publications/lemat-bulk-figure1.webp"
+    thumbnail: "/images/publications/lemat-bulk-figure1.png"
     thumbnail_alt: "Figure 1 from the LeMat-Bulk paper"
 
   - project: "LeMat-Synth"
@@ -35,7 +35,7 @@ items:
     dataset_url: "https://huggingface.co/datasets/LeMaterial/LeMat-Synth"
     code_url: "https://github.com/LeMaterial/lematerial-llm-synthesis"
     summary: "A multi-modal extraction pipeline and dataset that structures synthesis procedures from 81k materials papers across methods and material classes."
-    thumbnail: "/images/publications/lemat-synth-figure1.webp"
+    thumbnail: "/images/publications/lemat-synth-figure1.png"
     thumbnail_alt: "Figure 1 from the LeMat-Synth paper"
 
   - project: "LeMat-Traj"
@@ -48,5 +48,5 @@ items:
     dataset_url: "https://huggingface.co/datasets/LeMaterial/LeMat-Traj"
     code_url: "https://github.com/LeMaterial/lematerial-fetcher"
     summary: "A large-scale, standardized trajectory dataset with over 120M atomic configurations to support transferable atomistic modeling workflows."
-    thumbnail: "/images/publications/lemat-traj-figure1.webp"
+    thumbnail: "/images/publications/lemat-traj-figure1.png"
     thumbnail_alt: "Figure 1 from the LeMat-Traj paper"
