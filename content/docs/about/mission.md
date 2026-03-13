@@ -48,7 +48,7 @@ While the initiative receives support from Entalpic and Hugging Face (for hostin
 
  **📬 Ready to Contribute?**
 
-- 👉 Join the [LeMaterial Slack](https://join.slack.com/t/lematerial/shared_invite/zt-3isyxmscz-2Gq5x6aRhYaeauMQmo~SCQ)
+- 👉 Join the {{< slack-link label="LeMaterial Slack" >}}
 - 👉 [Suggest your own idea for LeMaterial](https://docs.google.com/forms/d/e/1FAIpQLSfTIMVBLD2x62A32AGQ8PlCZamIUh3zrCr8lZlsEQmBX7HqYA/viewform)
 
 Whether you’re contributing code, data, theory, or just curiosity — we would love to have you involved.

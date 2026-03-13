@@ -2,7 +2,10 @@
 title = "LeMaterial"
 description = "LeMaterial"
 images = ["cover.png"]
-footer = 'LeMaterial <span class="mx-1">|</span> <a href="mailto:contact@lematerial.org">Contact</a>'
+footerText = "LeMaterial"
+contactUrl = "https://lematerial.slack.com/archives/C0ALE4CHQHL"
+contactLabel = "Contact"
+slackInviteUrl = "https://join.slack.com/t/lematerial/shared_invite/zt-3sgv9pdoi-P5bL~TZlLoKmuJD~LQw8aQ"
 
 # mainSections
 mainSections = ["docs", "blog"]

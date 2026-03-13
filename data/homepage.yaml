@@ -14,10 +14,10 @@ hero:
       external: true
       icon: "github"
     - label: "Slack"
-      url: "https://join.slack.com/t/lematerial/shared_invite/zt-3isyxmscz-2Gq5x6aRhYaeauMQmo~SCQ"
       variant: "outline"
       external: true
       icon: "slack"
+      slackInvite: true
     - label: "Join"
       url: "https://docs.google.com/forms/d/e/1FAIpQLSd1v4yn5mxYL6QCCW33o7lRB37-MAFfLDXmpTN1nlhsYEGmTg/viewform"
       variant: "outline"
@@ -93,12 +93,42 @@ affiliations:
       width: 128
       height: 38
       url: "https://www.ucsb.edu/"
+    - name: "University of Cambridge"
+      src: "/images/partners/university-of-cambridge.png"
+      class: "lemat-logo--cambridge"
+      width: 128
+      height: 38
+      url: "https://www.cam.ac.uk/"
+    - name: "Imperial College London"
+      src: "/images/partners/imperial-college-london-new-logo.png"
+      class: "lemat-logo--imperial"
+      width: 128
+      height: 38
+      url: "https://www.imperial.ac.uk/"
     - name: "ETH Zurich"
       src: "/images/partners/eth-zurich.svg"
       class: "lemat-logo--eth-zurich"
       width: 128
       height: 38
       url: "https://ethz.ch/"
+    - name: "IIT Delhi"
+      src: "/images/partners/iit-delhi.svg"
+      class: "lemat-logo--iit-delhi"
+      width: 128
+      height: 38
+      url: "https://home.iitd.ac.in/"
+    - name: "IBM"
+      src: "/images/partners/ibm.png"
+      class: "lemat-logo--ibm"
+      width: 128
+      height: 38
+      url: "https://www.ibm.com/"
+    - name: "AI Alliance"
+      src: "/images/partners/ai-alliance.png"
+      class: "lemat-logo--ai-alliance"
+      width: 128
+      height: 38
+      url: "https://thealliance.ai/"
     - name: "Paul Scherrer Institute"
       src: "/images/partners/paul-scherrer-institute.svg"
       class: "lemat-logo--psi"
@@ -131,8 +161,8 @@ contribute:
     - title: "Join the Community"
       description: "Connect with contributors, ask questions, and follow ongoing initiatives in Slack."
       label: "Join Slack"
-      url: "https://join.slack.com/t/lematerial/shared_invite/zt-3isyxmscz-2Gq5x6aRhYaeauMQmo~SCQ"
       external: true
+      slackInvite: true
     - title: "Propose a Project"
       description: "Share a benchmark, dataset, or tooling idea and help shape upcoming collaborative work."
       label: "Submit an idea"

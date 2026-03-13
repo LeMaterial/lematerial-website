@@ -9,7 +9,11 @@
         <p class="lemat-hero__lead">{{ .hero.lead }}</p>
         <div class="lemat-hero__actions">
           {{ range .hero.actions }}
-          <a class="btn btn-lg rounded-pill{{ if eq .variant "primary" }} btn-primary{{ else }} btn-outline-primary{{ end }}{{ if .icon }} lemat-hero__action--icon{{ end }}" href="{{ .url }}" aria-label="{{ .label }}"{{ if .external }} target="_blank" rel="noopener noreferrer"{{ end }}>
+          {{ $href := .url }}
+          {{ if .slackInvite }}
+            {{ $href = site.Params.slackInviteUrl }}
+          {{ end }}
+          <a class="btn btn-lg rounded-pill{{ if eq .variant "primary" }} btn-primary{{ else }} btn-outline-primary{{ end }}{{ if .icon }} lemat-hero__action--icon{{ end }}" href="{{ $href }}" aria-label="{{ .label }}"{{ if .external }} target="_blank" rel="noopener noreferrer"{{ end }}>
             {{ if eq .icon "huggingface" }}
             <span class="lemat-hero__action-icon lemat-hero__action-icon--fill" aria-hidden="true">{{ readFile "static/images/icons/huggingface.svg" | safeHTML }}</span>
             {{ else if eq .icon "github" }}
@@ -74,10 +78,14 @@
       </div>
       <div class="lemat-contribute__grid">
         {{ range .contribute.cards }}
+        {{ $href := .url }}
+        {{ if .slackInvite }}
+          {{ $href = site.Params.slackInviteUrl }}
+        {{ end }}
         <article class="lemat-contribute-card">
           <h3>{{ .title }}</h3>
           <p>{{ .description }}</p>
-          <a href="{{ .url }}"{{ if .external }} target="_blank" rel="noopener noreferrer"{{ end }}>{{ .label }}</a>
+          <a href="{{ $href }}"{{ if .external }} target="_blank" rel="noopener noreferrer"{{ end }}>{{ .label }}</a>
         </article>
         {{ end }}
       </div>

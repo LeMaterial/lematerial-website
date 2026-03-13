@@ -12,7 +12,11 @@
       {{ end }}
       <div class="col-lg-8 text-center">
         <ul class="list-inline">
-          <li class="list-inline-item">{{ site.Params.footer | safeHTML }}</li>
+          <li class="list-inline-item">
+            {{ site.Params.footerText }}
+            <span class="mx-1">|</span>
+            <a href="{{ site.Params.contactUrl }}" target="_blank" rel="noopener noreferrer">{{ site.Params.contactLabel }}</a>
+          </li>
         </ul>
       </div>
     </div>

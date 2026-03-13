@@ -19,10 +19,10 @@ icon = "github"
 
 [[hero.actions]]
 label = "Slack"
-url = "https://join.slack.com/t/lematerial/shared_invite/zt-3isyxmscz-2Gq5x6aRhYaeauMQmo~SCQ"
 variant = "outline"
 external = true
 icon = "slack"
+slackInvite = true
 
 [[hero.actions]]
 label = "Join"
@@ -120,12 +120,52 @@ height = 38
 url = "https://www.ucsb.edu/"
 
 [[affiliations.logos]]
+name = "University of Cambridge"
+src = "/images/partners/university-of-cambridge.png"
+class = "lemat-logo--cambridge"
+width = 128
+height = 38
+url = "https://www.cam.ac.uk/"
+
+[[affiliations.logos]]
+name = "Imperial College London"
+src = "/images/partners/imperial-college-london-new-logo.png"
+class = "lemat-logo--imperial"
+width = 128
+height = 38
+url = "https://www.imperial.ac.uk/"
+
+[[affiliations.logos]]
 name = "ETH Zurich"
 src = "/images/partners/eth-zurich.svg"
 class = "lemat-logo--eth-zurich"
 width = 128
 height = 38
 url = "https://ethz.ch/"
+
+[[affiliations.logos]]
+name = "IIT Delhi"
+src = "/images/partners/iit-delhi.svg"
+class = "lemat-logo--iit-delhi"
+width = 128
+height = 38
+url = "https://home.iitd.ac.in/"
+
+[[affiliations.logos]]
+name = "IBM"
+src = "/images/partners/ibm.png"
+class = "lemat-logo--ibm"
+width = 128
+height = 38
+url = "https://www.ibm.com/"
+
+[[affiliations.logos]]
+name = "AI Alliance"
+src = "/images/partners/ai-alliance.png"
+class = "lemat-logo--ai-alliance"
+width = 128
+height = 38
+url = "https://thealliance.ai/"
 
 [[affiliations.logos]]
 name = "Paul Scherrer Institute"
@@ -166,9 +206,9 @@ intro = "Bring your ideas, datasets, models, or tooling. We welcome contribution
 [[contribute.cards]]
 title = "Join the Community"
 description = "Connect with contributors, ask questions, and follow ongoing initiatives in Slack."
-url = "https://join.slack.com/t/lematerial/shared_invite/zt-3isyxmscz-2Gq5x6aRhYaeauMQmo~SCQ"
 label = "Join Slack"
 external = true
+slackInvite = true
 
 [[contribute.cards]]
 title = "Propose a Project"

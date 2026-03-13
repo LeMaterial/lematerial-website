@@ -1228,6 +1228,20 @@ html[data-bs-theme="dark"] .rg-suggest-card {
     max-width: 84px;
 }
 
+.lemat-affiliations__item img.lemat-logo--cambridge {
+    max-width: 126px;
+}
+
+.lemat-affiliations__item img.lemat-logo--ai-alliance {
+    max-width: 118px;
+}
+
+.lemat-affiliations__item img.lemat-logo--imperial,
+.lemat-affiliations__item img.lemat-logo--iit-delhi {
+    max-width: 118px;
+    max-height: 42px;
+}
+
 .lemat-affiliations__item img.lemat-logo--newfound {
     background: #0f1720;
     border-radius: 6px;
@@ -1399,6 +1413,17 @@ html[data-bs-theme="dark"] .rg-suggest-card {
 
     .lemat-affiliations__item img {
         max-width: 102px;
+        max-height: 34px;
+    }
+
+    .lemat-affiliations__item img.lemat-logo--cambridge,
+    .lemat-affiliations__item img.lemat-logo--ai-alliance {
+        max-width: 94px;
+    }
+
+    .lemat-affiliations__item img.lemat-logo--imperial,
+    .lemat-affiliations__item img.lemat-logo--iit-delhi {
+        max-width: 94px;
         max-height: 34px;
     }
 

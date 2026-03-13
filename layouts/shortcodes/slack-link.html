@@ -1,0 +1,4 @@
+{{- $href := site.Params.slackInviteUrl -}}
+{{- $label := .Get "label" | default "Join Slack" -}}
+{{- $class := .Get "class" -}}
+<a{{ with $class }} class="{{ . }}"{{ end }} href="{{ $href }}" target="_blank" rel="noopener noreferrer">{{ $label }}</a>
