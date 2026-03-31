@@ -1,15 +1,3 @@
-- title: "Zatom-1: A Multimodal Flow Foundation Model for 3D Molecules and Materials"
-  speaker: "Alex Morehead, Rishabh Anand"
-  date: "Wednesday, March 18, 2026"
-  date_iso: "2026-03-18"
-  time: "9:30 AM PT / 12:30 PM ET / 5:30 PM CET"
-  paper_title: "Zatom-1: A Multimodal Flow Foundation Model for 3D Molecules and Materials"
-  paper_link: "https://arxiv.org/abs/2602.22251"
-  image_url: "https://utfs.io/f/VUSmVbigfv2ZyXtqe07G7ZwbmVLfQqHPErND4x91JR28eKSO"
-  meeting_link: "https://meet.google.com/hcg-szpf-ibh"
-  calendar_link: "https://calendar.google.com/calendar/event?action=TEMPLATE&tmeid=b2NoZ2sycHJhMmhjOXRzOTlzdDRqY3Z2cmdfMjAyNjAzMThUMTYzMDAwWiBkMjJlZGU4ZWNmYmE1YWFiZWMyZmYzNmI3Y2VmYTdkYTNjY2QxZmNiNjFiYjJlNDQxMjg4MjlmZDgwYzIwMjYyQGc&tmsrc=d22ede8ecfba5aabec2ff36b7cefa7da3ccd1fcb61bb2e44128829fd80c20262%40group.calendar.google.com"
-  description: |
-    We introduce Zatom-1, a multimodal foundation model for 3D small molecules and materials that generates realistic molecules, thermodynamically stable materials, and valid metal-organic frameworks while achieving competitive performance for PoseBusters and LeMat-GenBench. By pretraining across multiple atomistic modalities with a self-supervised generative flow matching objective, we demonstrate the first case of positive predictive transfer learning where modeling materials enhances molecular property prediction accuracy for downstream tasks like QM9 and Matbench. Zatom-1 is powered by an approximately equivariant transformer architecture that scales effectively in ambient space and outperforms existing equivariant and latent generative models.
 - title: "Leveraging Hidden-Space Representations Effectively in Bayesian Optimization for Experiment Design through Dimension-Aware Hyperpriors"
   speaker: "Guanming Chen, Maximilian Fleck, Thijs Stuyver"
   date: "Wednesday, April 8th, 2026"
@@ -17,7 +5,7 @@
   time: "08:30 AM PT / 11:30 PM ET / 5:30 PM CET"
   paper_title: "Leveraging Hidden-Space Representations Effectively in Bayesian Optimization for Experiment Design through Dimension-Aware Hyperpriors"
   paper_link: "https://chemrxiv.org/doi/full/10.26434/chemrxiv.10001986/v2"
-  # image_url: 
+  image_url: https://utfs.io/f/VUSmVbigfv2ZMrtBiAR532NaUoFZRw10DrtjnKAOy4WICeBl
   meeting_link: "https://meet.google.com/hcg-szpf-ibh"
   calendar_link: "https://calendar.google.com/calendar/event?action=TEMPLATE&tmeid=b2NoZ2sycHJhMmhjOXRzOTlzdDRqY3Z2cmdfMjAyNjA0MDhUMTUzMDAwWiBkMjJlZGU4ZWNmYmE1YWFiZWMyZmYzNmI3Y2VmYTdkYTNjY2QxZmNiNjFiYjJlNDQxMjg4MjlmZDgwYzIwMjYyQGc&tmsrc=d22ede8ecfba5aabec2ff36b7cefa7da3ccd1fcb61bb2e44128829fd80c20262%40group.calendar.google.com"
   description: |
