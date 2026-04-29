@@ -1,12 +1,14 @@
-- title: "Leveraging Hidden-Space Representations Effectively in Bayesian Optimization for Experiment Design through Dimension-Aware Hyperpriors"
-  speaker: "Guanming Chen, Maximilian Fleck, Thijs Stuyver"
-  date: "Wednesday, April 8th, 2026"
-  date_iso: "2026-04-08"
-  time: "08:30 AM PT / 11:30 PM ET / 5:30 PM CET"
-  paper_title: "Leveraging Hidden-Space Representations Effectively in Bayesian Optimization for Experiment Design through Dimension-Aware Hyperpriors"
-  paper_link: "https://chemrxiv.org/doi/full/10.26434/chemrxiv.10001986/v2"
-  image_url: https://utfs.io/f/VUSmVbigfv2ZMrtBiAR532NaUoFZRw10DrtjnKAOy4WICeBl
+- title: "A Priori Sampling of Transition States with Guided Diffusion"
+  speaker: "Lucas Pinède"
+  date: "Wednesday, May 6th, 2026"
+  date_iso: "2026-05-06"
+  time: "08:30 AM PT / 11:30 AM ET / 5:30 PM CET"
+  paper_title: "A Priori Sampling of Transition States with Guided Diffusion"
+  paper_link: "https://arxiv.org/abs/2603.25980"
+  image_url: https://utfs.io/f/VUSmVbigfv2ZVg3TjXgigfv2Z4jcUAaKMI1Q5BxwHGVkbmr0
   meeting_link: "https://meet.google.com/hcg-szpf-ibh"
-  calendar_link: "https://calendar.google.com/calendar/event?action=TEMPLATE&tmeid=b2NoZ2sycHJhMmhjOXRzOTlzdDRqY3Z2cmdfMjAyNjA0MDhUMTUzMDAwWiBkMjJlZGU4ZWNmYmE1YWFiZWMyZmYzNmI3Y2VmYTdkYTNjY2QxZmNiNjFiYjJlNDQxMjg4MjlmZDgwYzIwMjYyQGc&tmsrc=d22ede8ecfba5aabec2ff36b7cefa7da3ccd1fcb61bb2e44128829fd80c20262%40group.calendar.google.com"
+  calendar_link: "https://calendar.google.com/calendar/event?action=TEMPLATE&tmeid=MzNuNjRsOWNsMXNubDU3MjF0YW0xa2x1aWUgZDIyZWRlOGVjZmJhNWFhYmVjMmZmMzZiN2NlZmE3ZGEzY2NkMWZjYjYxYmIyZTQ0MTI4ODI5ZmQ4MGMyMDI2MkBn&tmsrc=d22ede8ecfba5aabec2ff36b7cefa7da3ccd1fcb61bb2e44128829fd80c20262%40group.calendar.google.com"
   description: |
-    Hidden-space features (HSFs) of molecules, which are derived from pre-trained graph neural networks, Transformer models and large language models, offer an appealing alternative to conventional encodings for Bayesian optimisation (BO) in chemical experiment design. This talk explores how mismatched Gaussian process hyperpriors, rather than the representations themselves, can limit the effectiveness of HSFs in BO, and introduces a dimension-aware adaptive prior that maximises their potential in chemical experiment design.
+    Lucas is currently a Master's student working at Entalpic. He previously researched active learning and machine learning interatomic potentials (MLIPs) for reactive chemistry at ENS, before visiting MIT and working on generative approaches for modelling potential energy surfaces, ranging from Boltzmann Emulator training strategies to transition state discovery.
+
+    We will introduce ASTRA, a generative framework that tackles transition state discovery through the inference-time steering of score-based diffusion models. We will discuss how this approach bypasses the need for prior mechanistic knowledge, using score-based interpolation as initialisation of the transition state ensemble followed by a novel Score-Aligned Ascent (SAA) method that refines these initial guesses. We will demonstrate how ASTRA successfully identifies competing pathways and first-order saddle points using only short molecular dynamics trajectories from known metastable basins as training data.
