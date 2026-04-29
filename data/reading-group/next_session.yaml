@@ -9,6 +9,4 @@
   meeting_link: "https://meet.google.com/hcg-szpf-ibh"
   calendar_link: "https://calendar.google.com/calendar/event?action=TEMPLATE&tmeid=MzNuNjRsOWNsMXNubDU3MjF0YW0xa2x1aWUgZDIyZWRlOGVjZmJhNWFhYmVjMmZmMzZiN2NlZmE3ZGEzY2NkMWZjYjYxYmIyZTQ0MTI4ODI5ZmQ4MGMyMDI2MkBn&tmsrc=d22ede8ecfba5aabec2ff36b7cefa7da3ccd1fcb61bb2e44128829fd80c20262%40group.calendar.google.com"
   description: |
-    Lucas is currently a Master's student working at Entalpic. He previously researched active learning and machine learning interatomic potentials (MLIPs) for reactive chemistry at ENS, before visiting MIT and working on generative approaches for modelling potential energy surfaces, ranging from Boltzmann Emulator training strategies to transition state discovery.
-
     We will introduce ASTRA, a generative framework that tackles transition state discovery through the inference-time steering of score-based diffusion models. We will discuss how this approach bypasses the need for prior mechanistic knowledge, using score-based interpolation as initialisation of the transition state ensemble followed by a novel Score-Aligned Ascent (SAA) method that refines these initial guesses. We will demonstrate how ASTRA successfully identifies competing pathways and first-order saddle points using only short molecular dynamics trajectories from known metastable basins as training data.
