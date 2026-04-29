@@ -7,7 +7,7 @@
   paper_link: "https://arxiv.org/abs/2603.25980"
   image_url: https://utfs.io/f/VUSmVbigfv2ZVg3TjXgigfv2Z4jcUAaKMI1Q5BxwHGVkbmr0
   meeting_link: "https://meet.google.com/hcg-szpf-ibh"
-  calendar_link: "https://calendar.google.com/calendar/render?action=TEMPLATE&text=LeMaterial+Reading+Group%3A+A+Priori+Sampling+of+Transition+States+with+Guided+Diffusion&dates=20260506T153000Z%2F20260506T163000Z&details=We+will+introduce+ASTRA%2C+a+generative+framework+that+tackles+transition+state+discovery+through+the+inference-time+steering+of+score-based+diffusion+models.+Paper%3A+https%3A%2F%2Farxiv.org%2Fabs%2F2603.25980&location=meet.google.com%2Fhcg-szpf-ibh&ctz=Europe%2FParis"
+  calendar_link: "https://calendar.google.com/calendar/event?action=TEMPLATE&tmeid=MzNuNjRsOWNsMXNubDU3MjF0YW0xa2x1aWUgZDIyZWRlOGVjZmJhNWFhYmVjMmZmMzZiN2NlZmE3ZGEzY2NkMWZjYjYxYmIyZTQ0MTI4ODI5ZmQ4MGMyMDI2MkBn&tmsrc=d22ede8ecfba5aabec2ff36b7cefa7da3ccd1fcb61bb2e44128829fd80c20262%40group.calendar.google.com"
   description: |
     Lucas is currently a Master's student working at Entalpic. He previously researched active learning and machine learning interatomic potentials (MLIPs) for reactive chemistry at ENS, before visiting MIT and working on generative approaches for modelling potential energy surfaces, ranging from Boltzmann Emulator training strategies to transition state discovery.
 
