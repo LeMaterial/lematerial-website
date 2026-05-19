@@ -1,12 +1,13 @@
-- title: "A Priori Sampling of Transition States with Guided Diffusion"
-  speaker: "Lucas Pinède"
-  date: "Wednesday, May 6th, 2026"
-  date_iso: "2026-05-06"
-  time: "08:30 AM PT / 11:30 AM ET / 5:30 PM CET"
-  paper_title: "A Priori Sampling of Transition States with Guided Diffusion"
-  paper_link: "https://arxiv.org/abs/2603.25980"
-  image_url: https://utfs.io/f/VUSmVbigfv2ZVg3TjXgigfv2Z4jcUAaKMI1Q5BxwHGVkbmr0
+- title: "Platonic Representation of Foundation Machine Learning Interatomic Potentials"
+  speaker: "Dr. Zhenzhu Li"
+  date: "Wednesday, June 10th, 2026"
+  date_iso: "2026-06-10"
+  time: "08:30 AM PT / 11:30 AM ET / 5:30 PM CEST"
+  image_url: ""
+  image_alt: "Dr. Zhenzhu Li talk image"
   meeting_link: "https://meet.google.com/hcg-szpf-ibh"
-  calendar_link: "https://calendar.google.com/calendar/event?action=TEMPLATE&tmeid=MzNuNjRsOWNsMXNubDU3MjF0YW0xa2x1aWUgZDIyZWRlOGVjZmJhNWFhYmVjMmZmMzZiN2NlZmE3ZGEzY2NkMWZjYjYxYmIyZTQ0MTI4ODI5ZmQ4MGMyMDI2MkBn&tmsrc=d22ede8ecfba5aabec2ff36b7cefa7da3ccd1fcb61bb2e44128829fd80c20262%40group.calendar.google.com"
+  calendar_link: "https://calendar.google.com/calendar/render?action=TEMPLATE&text=LeMaterial+Reading+Group%3A+Platonic+Representation+of+Foundation+Machine+Learning+Interatomic+Potentials&dates=20260610T153000Z%2F20260610T163000Z&details=Speaker%3A+Dr.+Zhenzhu+Li%0A%0ATitle%3A+Platonic+Representation+of+Foundation+Machine+Learning+Interatomic+Potentials%0A%0AAbstract%3A+Foundation+machine+learning+interatomic+potentials+%28MLIPs%29+have+emerged+as+powerful+tools+for+atomistic+simulation%2C+yet+different+models+encode+chemical+environments+in+incompatible+latent+spaces%2C+limiting+direct+comparison+and+interoperability.+The+platonic+representation+hypothesis+suggests+that+sufficiently+capable+models+converge+towards+a+shared+statistical+representation+of+reality.+Will+this+hold+for+MLIPs+and+what+materials+insights+we+can+get+from+their+representations%3F+In+this+talk%2C+Dr.+Zhenzhu+Li+will+share+their+recent+story+trying+to+answer+these+questions.%0A%0ABio%3A+Dr.+Zhenzhu+Li+is+an+AI+in+Science+Fellow+at+Imperial+College+London.+Her+research+lies+at+the+intersection+of+computational+materials+science+and+artificial+intelligence%2C+aiming+to+address+the+urgent+need+for+AI-driven+materials+discovery+by+elucidating+defect-structure-property+relationships+and+advancing+intelligent+generative+frameworks+for+next-generation+photovoltaic+materials.&location=https%3A%2F%2Fmeet.google.com%2Fhcg-szpf-ibh&ctz=Europe%2FParis"
   description: |
-    We will introduce ASTRA, a generative framework that tackles transition state discovery through the inference-time steering of score-based diffusion models. We will discuss how this approach bypasses the need for prior mechanistic knowledge, using score-based interpolation as initialisation of the transition state ensemble followed by a novel Score-Aligned Ascent (SAA) method that refines these initial guesses. We will demonstrate how ASTRA successfully identifies competing pathways and first-order saddle points using only short molecular dynamics trajectories from known metastable basins as training data.
+    Foundation machine learning interatomic potentials (MLIPs) have emerged as powerful tools for atomistic simulation, yet different models encode chemical environments in incompatible latent spaces, limiting direct comparison and interoperability. The platonic representation hypothesis suggests that sufficiently capable models converge towards a shared statistical representation of reality. Will this hold for MLIPs and what materials insights we can get from their representations? In this talk, Dr. Zhenzhu Li will share their recent story trying to answer these questions.
+
+    **Bio:** Dr. Zhenzhu Li is an AI in Science Fellow at Imperial College London. Her research lies at the intersection of computational materials science and artificial intelligence, aiming to address the urgent need for AI-driven materials discovery by elucidating defect-structure-property relationships and advancing intelligent generative frameworks for next-generation photovoltaic materials.
