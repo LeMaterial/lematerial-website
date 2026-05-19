@@ -54,11 +54,7 @@
 
 ## layouts
 [[mounts]]
-  source = "layouts"
-  target = "layouts"
-
-[[mounts]]
-  source = "node_modules/@thulite/doks-core/layouts"
+  source = "node_modules/@thulite/core/layouts"
   target = "layouts"
 
 [[mounts]]
@@ -74,7 +70,11 @@
   target = "layouts"
 
 [[mounts]]
-  source = "node_modules/@thulite/core/layouts"
+  source = "node_modules/@thulite/doks-core/layouts"
+  target = "layouts"
+
+[[mounts]]
+  source = "layouts"
   target = "layouts"
 
 ## static
