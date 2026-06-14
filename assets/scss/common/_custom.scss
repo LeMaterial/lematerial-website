@@ -1236,6 +1236,11 @@ html[data-bs-theme="dark"] .rg-suggest-card {
     max-width: 118px;
 }
 
+.lemat-affiliations__item img.lemat-logo--chalmers {
+    max-width: 48px;
+    max-height: 42px;
+}
+
 .lemat-affiliations__item img.lemat-logo--imperial,
 .lemat-affiliations__item img.lemat-logo--iit-delhi {
     max-width: 118px;
@@ -1419,6 +1424,11 @@ html[data-bs-theme="dark"] .rg-suggest-card {
     .lemat-affiliations__item img.lemat-logo--cambridge,
     .lemat-affiliations__item img.lemat-logo--ai-alliance {
         max-width: 94px;
+    }
+
+    .lemat-affiliations__item img.lemat-logo--chalmers {
+        max-width: 42px;
+        max-height: 36px;
     }
 
     .lemat-affiliations__item img.lemat-logo--imperial,
