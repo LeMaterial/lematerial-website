@@ -69,6 +69,12 @@ affiliations:
       width: 128
       height: 38
       url: "https://www.epfl.ch/"
+    - name: "Chalmers University of Technology"
+      src: "/images/partners/chalmers-university-of-technology.png"
+      class: "lemat-logo--chalmers"
+      width: 128
+      height: 38
+      url: "https://www.chalmers.se/en/"
     - name: "FAIR-Meta"
       src: "/images/partners/fair-meta.svg"
       class: "lemat-logo--fair-meta"
