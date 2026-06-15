@@ -8,6 +8,6 @@
   image_url: "https://utfs.io/f/VUSmVbigfv2ZXb6dxaumVxeTqlOhW3wKP4NQZc76jXHAtv9B"
   image_alt: "Dr. Seokhyun Choung talk banner"
   meeting_link: "https://meet.google.com/hcg-szpf-ibh"
-  calendar_link: "https://calendar.google.com/calendar/render?action=TEMPLATE&text=LeMaterial+Reading+Group%3A+Angular+relational+knowledge+distillation+of+machine+learning+interatomic+potentials+for+scalable+catalyst+exploration&dates=20260617T153000Z%2F20260617T163000Z&details=Talk+by+Seokhyun+Choung+on+Angular+Relational+Knowledge+%28ARK%29+distillation+for+efficient+machine+learning+interatomic+potentials+and+scalable+catalyst+exploration.+Paper%3A+https%3A%2F%2Fwww.nature.com%2Farticles%2Fs41524-026-02062-5&location=https%3A%2F%2Fmeet.google.com%2Fhcg-szpf-ibh&ctz=Europe%2FParis"
+  calendar_link: "https://calendar.google.com/calendar/event?action=TEMPLATE&tmeid=NDEzcGxnYTNubGc4cDE4YW1nbjY1NmRzZWEgZDIyZWRlOGVjZmJhNWFhYmVjMmZmMzZiN2NlZmE3ZGEzY2NkMWZjYjYxYmIyZTQ0MTI4ODI5ZmQ4MGMyMDI2MkBn&tmsrc=d22ede8ecfba5aabec2ff36b7cefa7da3ccd1fcb61bb2e44128829fd80c20262%40group.calendar.google.com"
   description: |
     Machine learning interatomic potentials keep getting more accurate, but also far heavier, trading speed for gains in accuracy. This talk introduces Angular Relational Knowledge (ARK) distillation, which shrinks large MLIPs up to ~12x while keeping their accuracy across domains (OMat24, OC20, and SPICE) and architectures (MACE, GemNet, and EquiformerV2), enabling efficient catalyst discovery at scale.
