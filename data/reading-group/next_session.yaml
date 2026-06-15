@@ -1,13 +1,13 @@
-- title: "Platonic Representation of Foundation Machine Learning Interatomic Potentials"
-  speaker: "Dr. Zhenzhu Li"
-  date: "Wednesday, June 10th, 2026"
-  date_iso: "2026-06-10"
+- title: "Angular relational knowledge distillation of machine learning interatomic potentials for scalable catalyst exploration"
+  speaker: "Dr. Seokhyun Choung"
+  date: "Wednesday, June 17th, 2026"
+  date_iso: "2026-06-17"
   time: "08:30 AM PT / 11:30 AM ET / 5:30 PM CEST"
-  paper_title: "Platonic representation of foundation machine learning interatomic potentials"
-  paper_link: "https://www.nature.com/articles/s42256-026-01235-7"
-  image_url: "https://utfs.io/f/VUSmVbigfv2ZSFVAEhldXjtBwxQfcan02kP861lRJbvFyHTp"
-  image_alt: "Dr. Zhenzhu Li talk image"
+  paper_title: "Angular relational knowledge distillation of machine learning interatomic potentials for scalable catalyst exploration"
+  paper_link: "https://www.nature.com/articles/s41524-026-02062-5"
+  image_url: "https://utfs.io/f/VUSmVbigfv2ZXb6dxaumVxeTqlOhW3wKP4NQZc76jXHAtv9B"
+  image_alt: "Dr. Seokhyun Choung talk banner"
   meeting_link: "https://meet.google.com/hcg-szpf-ibh"
-  calendar_link: "https://calendar.google.com/calendar/event?action=TEMPLATE&tmeid=MGw1OHA0bzJsdnRjY21haW44MG5tY2RuajEgZDIyZWRlOGVjZmJhNWFhYmVjMmZmMzZiN2NlZmE3ZGEzY2NkMWZjYjYxYmIyZTQ0MTI4ODI5ZmQ4MGMyMDI2MkBn&tmsrc=d22ede8ecfba5aabec2ff36b7cefa7da3ccd1fcb61bb2e44128829fd80c20262%40group.calendar.google.com"
+  calendar_link: "https://calendar.google.com/calendar/event?action=TEMPLATE&tmeid=NDEzcGxnYTNubGc4cDE4YW1nbjY1NmRzZWEgZDIyZWRlOGVjZmJhNWFhYmVjMmZmMzZiN2NlZmE3ZGEzY2NkMWZjYjYxYmIyZTQ0MTI4ODI5ZmQ4MGMyMDI2MkBn&tmsrc=d22ede8ecfba5aabec2ff36b7cefa7da3ccd1fcb61bb2e44128829fd80c20262%40group.calendar.google.com"
   description: |
-    Foundation machine learning interatomic potentials (MLIPs) have emerged as powerful tools for atomistic simulation, yet different models encode chemical environments in incompatible latent spaces, limiting direct comparison and interoperability. The platonic representation hypothesis suggests that sufficiently capable models converge towards a shared statistical representation of reality. Will this hold for MLIPs and what materials insights we can get from their representations? In this talk, Dr. Zhenzhu Li will share their recent story trying to answer these questions.
+    Machine learning interatomic potentials keep getting more accurate, but also far heavier, trading speed for gains in accuracy. This talk introduces Angular Relational Knowledge (ARK) distillation, which shrinks large MLIPs up to ~12x while keeping their accuracy across domains (OMat24, OC20, and SPICE) and architectures (MACE, GemNet, and EquiformerV2), enabling efficient catalyst discovery at scale.
