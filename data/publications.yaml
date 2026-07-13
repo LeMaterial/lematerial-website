@@ -1,4 +1,51 @@
 items:
+  - project: "Atompack"
+    title: "Atompack: A Storage and Distribution Layer for Read-Heavy Atomistic ML Training Datasets"
+    authors_short: "Ali Ramlaoui et al."
+    year: 2026
+    date: "2026-06-29"
+    arxiv_id: "2606.29975"
+    paper_url: "https://arxiv.org/abs/2606.29975"
+    dataset_url: "https://huggingface.co/datasets/LeMaterial/Atompack"
+    code_url: "https://github.com/LeMaterial/atompack"
+    summary: "An append-oriented storage format and distribution layer for compact atomistic datasets with fast shuffled reads in machine-learning training workflows."
+    thumbnail: "/images/publications/atompack-figure1.png"
+    thumbnail_alt: "Figure 1 from the Atompack paper"
+
+  - project: "LeMat-Rho"
+    title: "LeMat-Rho: High-Fidelity Charge Density Dataset for Atomistic Materials Modeling"
+    authors_short: "Mathilde L. D. Franckel et al."
+    status: "In preparation"
+    year: 2026
+    date: "2026-06-18"
+    dataset_url: "https://huggingface.co/datasets/LeMaterial/LeMat-Rho"
+    summary: "A high-fidelity dataset of roughly 69,000 inorganic crystal structures computed with r2SCAN, including charge densities, Bader charges, forces, stresses, and energies."
+    thumbnail: "/images/publications/lemat-rho-workflow.png"
+    thumbnail_alt: "LeMat-Rho computation and dataset processing workflow"
+
+  - project: "TriForces"
+    title: "TriForces: Augmenting Atomistic GNNs for Transferable Representations"
+    authors_short: "Ali Ramlaoui et al."
+    year: 2026
+    date: "2026-05-20"
+    arxiv_id: "2605.20581"
+    paper_url: "https://arxiv.org/abs/2605.20581"
+    code_url: "https://github.com/Ramlaoui/triforces"
+    summary: "A model-agnostic three-stream framework that separates composition, structure, and interaction information to improve transferable atomistic representations."
+    thumbnail: "/images/publications/triforces-figure2.png"
+    thumbnail_alt: "Figure 2 from the TriForces paper"
+
+  - project: "Dope2Real"
+    title: "High-throughput ML Screening of Doped Cathode Active Materials"
+    authors_short: "Lucas Pinède et al."
+    venue: "AI4X-AC 2026 Oral"
+    year: 2026
+    date: "2026-03-15"
+    paper_url: "https://openreview.net/pdf?id=SP0OKndwpg"
+    summary: "An automated high-throughput screening pipeline combining universal machine-learning interatomic potentials and DFT to evaluate dopants and co-dopants for cathode active materials, with experimental validation of promising candidates."
+    thumbnail: "/images/publications/dope2real-figure1.png"
+    thumbnail_alt: "Dopant stability and voltage screening results from Figure 1 of the Dope2Real work"
+
   - project: "LeMat-GenBench"
     title: "LeMat-GenBench: A Unified Evaluation Framework for Crystal Generative Models"
     authors_short: "Siddharth Betala et al."

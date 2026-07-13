@@ -34,19 +34,19 @@ external = true
 title = "Latest from LeMaterial"
 
 [[updates.items]]
+date = "2026-06-29"
+title = "Atompack released"
+description = "Atompack is now available as a fast storage and distribution layer for read-heavy atomistic ML datasets."
+url = "https://github.com/LeMaterial/atompack"
+label = "Explore Atompack"
+external = true
+
+[[updates.items]]
 date = "2025-11-26"
 title = "Reading Group sessions are live"
 description = "Join recurring discussions on AI for materials science with paper walkthroughs and open Q&A."
 url = "/docs/reading-group/"
 label = "See sessions"
-external = false
-
-[[updates.items]]
-date = "2025-10-10"
-title = "LeMat datasets are available on Hugging Face"
-description = "Explore LeMat-Bulk, LeMat-BulkUnique, LeMat-Traj, and LeMat-Synth from a single open hub."
-url = "/docs/about/datasets/"
-label = "Browse datasets"
 external = false
 
 [[updates.items]]

@@ -34,6 +34,12 @@
             {{- with .authors_short -}}
               {{- $metaParts = $metaParts | append . -}}
             {{- end -}}
+            {{- with .venue -}}
+              {{- $metaParts = $metaParts | append . -}}
+            {{- end -}}
+            {{- with .status -}}
+              {{- $metaParts = $metaParts | append . -}}
+            {{- end -}}
             {{- with .arxiv_id -}}
               {{- $metaParts = $metaParts | append (printf "arXiv:%s" .) -}}
             {{- end -}}

@@ -26,6 +26,12 @@ hero:
 updates:
   title: "Latest from LeMaterial"
   items:
+    - date: "2026-06-29"
+      title: "Atompack released"
+      description: "Atompack is now available as a fast storage and distribution layer for read-heavy atomistic ML datasets."
+      label: "Explore Atompack"
+      url: "https://github.com/LeMaterial/atompack"
+      external: true
     - date: "2026-02-20"
       title: "LeMat-GenBench released"
       description: "LeMat-GenBench is now released with a public leaderboard on Hugging Face."
@@ -38,13 +44,6 @@ updates:
       label: "See sessions"
       url: "/docs/reading-group/"
       external: false
-    - date: "2025-10-10"
-      title: "LeMat datasets are available on Hugging Face"
-      description: "Explore LeMat-Bulk, LeMat-BulkUnique, LeMat-Traj, and LeMat-Synth from a single open hub."
-      label: "Browse datasets"
-      url: "/docs/about/datasets/"
-      external: false
-
 affiliations:
   title: "Community Contributors"
   intro: "LeMaterial brings together researchers and engineers from institutions across academia and industry. The organizations below reflect the affiliations of contributors to LeMaterial initiatives."
