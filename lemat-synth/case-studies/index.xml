@@ -1,41 +1,15 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Case Studies on LeMaterial</title>
-    <link>http://localhost:61375/lemat-synth/case-studies/</link>
-    <description>Recent content in Case Studies on LeMaterial</description>
-    <generator>Hugo</generator>
-    <language>en</language>
-    <copyright>Copyright (c) 2020-2024 Entalpic</copyright>
-    <lastBuildDate>Tue, 28 Oct 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:61375/lemat-synth/case-studies/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Thermocatalysis</title>
-      <link>http://localhost:61375/lemat-synth/case-studies/thermocatalysis/</link>
-      <pubDate>Tue, 28 Oct 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:61375/lemat-synth/case-studies/thermocatalysis/</guid>
-      <description>&lt;p&gt;End-to-end workflow for ammonia-decomposition catalysts: extract synthesis&#xA;procedures &lt;em&gt;and&lt;/em&gt; conversion-vs-temperature curves from a folder of PDFs, then&#xA;score several vision models against human-annotated ground truth.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Superconductors</title>
-      <link>http://localhost:61375/lemat-synth/case-studies/superconductors/</link>
-      <pubDate>Tue, 28 Oct 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:61375/lemat-synth/case-studies/superconductors/</guid>
-      <description>&lt;p&gt;Extracts synthesis procedures and critical temperatures (&lt;em&gt;T&lt;/em&gt;&lt;sub&gt;c&lt;/sub&gt;) from&#xA;superconductor papers. &lt;em&gt;T&lt;/em&gt;&lt;sub&gt;c&lt;/sub&gt; is read twice — once from the text, and&#xA;once geometrically from ρ(T) or R(T) plots — which gives a built-in&#xA;cross-check on both readings.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Porous Materials</title>
-      <link>http://localhost:61375/lemat-synth/case-studies/porosity/</link>
-      <pubDate>Tue, 28 Oct 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:61375/lemat-synth/case-studies/porosity/</guid>
-      <description>&lt;p&gt;Extracts synthesis procedures and adsorption isotherms from papers on MOFs,&#xA;zeolites, COFs and related frameworks.&lt;/p&gt;&#xA;&lt;p&gt;This is the simplest of the three case studies — no domain metric extractors, no&#xA;custom writer — which makes it the best template to copy when starting a new&#xA;domain. &lt;a href=&#34;http://localhost:61375/lemat-synth/case-studies/custom-domain/&#34;&gt;Building your own case study&lt;/a&gt; walks through exactly&#xA;how it is assembled.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Build Your Own</title>
-      <link>http://localhost:61375/lemat-synth/case-studies/custom-domain/</link>
-      <pubDate>Tue, 28 Oct 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:61375/lemat-synth/case-studies/custom-domain/</guid>
-      <description>&lt;p&gt;Pointing LeMat-Synth at a new scientific domain — electrochemistry, battery&#xA;cycling, thermoelectrics, photocatalysis — does not require touching the&#xA;pipeline. You assemble a &lt;code&gt;DomainConfig&lt;/code&gt; from four pieces and hand it to&#xA;&lt;code&gt;BatchRunner&lt;/code&gt;, which already knows how to find PDFs, detect supplementary&#xA;files, retry on rate limits, resume interrupted runs, and report progress.&lt;/p&gt;</description>
-    </item>
-  </channel>
-</rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Case Studies on LeMaterial</title><link>/lemat-synth/case-studies/</link><description>Recent content in Case Studies on LeMaterial</description><generator>Hugo</generator><language>en</language><copyright>Copyright (c) 2020-2024 Entalpic</copyright><lastBuildDate>Tue, 28 Oct 2025 00:00:00 +0000</lastBuildDate><atom:link href="/lemat-synth/case-studies/index.xml" rel="self" type="application/rss+xml"/><item><title>Thermocatalysis</title><link>/lemat-synth/case-studies/thermocatalysis/</link><pubDate>Tue, 28 Oct 2025 00:00:00 +0000</pubDate><guid>/lemat-synth/case-studies/thermocatalysis/</guid><description>&lt;p>End-to-end workflow for ammonia-decomposition catalysts: extract synthesis
+procedures &lt;em>and&lt;/em> conversion-vs-temperature curves from a folder of PDFs, then
+score several vision models against human-annotated ground truth.&lt;/p></description></item><item><title>Superconductors</title><link>/lemat-synth/case-studies/superconductors/</link><pubDate>Tue, 28 Oct 2025 00:00:00 +0000</pubDate><guid>/lemat-synth/case-studies/superconductors/</guid><description>&lt;p>Extracts synthesis procedures and critical temperatures (&lt;em>T&lt;/em>&lt;sub>c&lt;/sub>) from
+superconductor papers. &lt;em>T&lt;/em>&lt;sub>c&lt;/sub> is read twice — once from the text, and
+once geometrically from ρ(T) or R(T) plots — which gives a built-in
+cross-check on both readings.&lt;/p></description></item><item><title>Porous Materials</title><link>/lemat-synth/case-studies/porosity/</link><pubDate>Tue, 28 Oct 2025 00:00:00 +0000</pubDate><guid>/lemat-synth/case-studies/porosity/</guid><description>&lt;p>Extracts synthesis procedures and adsorption isotherms from papers on MOFs,
+zeolites, COFs and related frameworks.&lt;/p>
+&lt;p>This is the simplest of the three case studies — no domain metric extractors, no
+custom writer — which makes it the best template to copy when starting a new
+domain. &lt;a href="../../lemat-synth/case-studies/custom-domain/">Building your own case study&lt;/a> walks through exactly
+how it is assembled.&lt;/p></description></item><item><title>Build Your Own</title><link>/lemat-synth/case-studies/custom-domain/</link><pubDate>Tue, 28 Oct 2025 00:00:00 +0000</pubDate><guid>/lemat-synth/case-studies/custom-domain/</guid><description>&lt;p>Pointing LeMat-Synth at a new scientific domain — electrochemistry, battery
+cycling, thermoelectrics, photocatalysis — does not require touching the
+pipeline. You assemble a &lt;code>DomainConfig&lt;/code> from four pieces and hand it to
+&lt;code>BatchRunner&lt;/code>, which already knows how to find PDFs, detect supplementary
+files, retry on rate limits, resume interrupted runs, and report progress.&lt;/p></description></item></channel></rss>

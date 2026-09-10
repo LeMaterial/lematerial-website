@@ -1,20 +1,5 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Tutorials on LeMaterial</title>
-    <link>http://localhost:61375/docs/learn/</link>
-    <description>Recent content in Tutorials on LeMaterial</description>
-    <generator>Hugo</generator>
-    <language>en</language>
-    <copyright>Copyright (c) 2020-2024 Entalpic</copyright>
-    <lastBuildDate>Thu, 07 Sep 2023 16:04:48 +0200</lastBuildDate>
-    <atom:link href="http://localhost:61375/docs/learn/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>LeMaterial with FAIRChem</title>
-      <link>http://localhost:61375/docs/learn/lematerial-with-fairchem/</link>
-      <pubDate>Thu, 07 Sep 2023 16:04:48 +0200</pubDate>
-      <guid>http://localhost:61375/docs/learn/lematerial-with-fairchem/</guid>
-      <description>&lt;a target=&#34;_blank&#34; href=&#34;https://colab.research.google.com/drive/1y8_CzKM5Rgsiv9JoPmi9mXphi-kf6Lec?usp=sharing&#34;&gt;&#xA;  &lt;img src=&#34;https://colab.research.google.com/assets/colab-badge.svg&#34; alt=&#34;Open In Colab&#34;/&gt;&#xA;&lt;/a&gt;&#xA;&lt;br/&gt;&lt;br/&gt;&#xA;&lt;p&gt;The goal of this tutorial is to show how to use LeMaterial&amp;rsquo;s dataset with Geometric GNNs designed for molecular property prediction and relaxation from the &lt;a href=&#34;https://github.com/FAIR-Chem/fairchem&#34;&gt;FAIRChem repository&lt;/a&gt;.&lt;/p&gt;</description>
-    </item>
-  </channel>
-</rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Tutorials on LeMaterial</title><link>/docs/learn/</link><description>Recent content in Tutorials on LeMaterial</description><generator>Hugo</generator><language>en</language><copyright>Copyright (c) 2020-2024 Entalpic</copyright><lastBuildDate>Thu, 07 Sep 2023 16:04:48 +0200</lastBuildDate><atom:link href="/docs/learn/index.xml" rel="self" type="application/rss+xml"/><item><title>LeMaterial with FAIRChem</title><link>/docs/learn/lematerial-with-fairchem/</link><pubDate>Thu, 07 Sep 2023 16:04:48 +0200</pubDate><guid>/docs/learn/lematerial-with-fairchem/</guid><description>&lt;a target="_blank" href="https://colab.research.google.com/drive/1y8_CzKM5Rgsiv9JoPmi9mXphi-kf6Lec?usp=sharing">
+ &lt;img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/>
+&lt;/a>
+&lt;br/>&lt;br/>
+&lt;p>The goal of this tutorial is to show how to use LeMaterial&amp;rsquo;s dataset with Geometric GNNs designed for molecular property prediction and relaxation from the &lt;a href="https://github.com/FAIR-Chem/fairchem">FAIRChem repository&lt;/a>.&lt;/p></description></item></channel></rss>

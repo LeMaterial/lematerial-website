@@ -1,27 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>LeMat-Synth on LeMaterial</title>
-    <link>http://localhost:61375/lemat-synth/</link>
-    <description>Recent content in LeMat-Synth on LeMaterial</description>
-    <generator>Hugo</generator>
-    <language>en</language>
-    <copyright>Copyright (c) 2020-2024 Entalpic</copyright>
-    <lastBuildDate>Tue, 28 Oct 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:61375/lemat-synth/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Overview</title>
-      <link>http://localhost:61375/lemat-synth/overview/</link>
-      <pubDate>Tue, 28 Oct 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:61375/lemat-synth/overview/</guid>
-      <description>&lt;p&gt;&lt;strong&gt;LeMat-Synth&lt;/strong&gt; is an open-source multi-modal toolbox for extracting structured synthesis procedures and performance data from materials science literature at scale. It was presented at &lt;a href=&#34;https://arxiv.org/abs/2510.26824&#34;&gt;NeurIPS AI4Mat 2025&lt;/a&gt;.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Tutorials</title>
-      <link>http://localhost:61375/lemat-synth/tutorials/</link>
-      <pubDate>Tue, 28 Oct 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:61375/lemat-synth/tutorials/</guid>
-      <description>&lt;p&gt;Seven runnable notebooks that take you from &lt;em&gt;reading&lt;/em&gt; LeMat-Synth data to&#xA;&lt;em&gt;producing&lt;/em&gt; it, and finally to &lt;em&gt;changing what gets produced&lt;/em&gt;. Each one is&#xA;self-contained, states its prerequisites and cost up front, and explains what&#xA;every step is doing rather than just executing it.&lt;/p&gt;</description>
-    </item>
-  </channel>
-</rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>LeMat-Synth on LeMaterial</title><link>/lemat-synth/</link><description>Recent content in LeMat-Synth on LeMaterial</description><generator>Hugo</generator><language>en</language><copyright>Copyright (c) 2020-2024 Entalpic</copyright><lastBuildDate>Tue, 28 Oct 2025 00:00:00 +0000</lastBuildDate><atom:link href="/lemat-synth/index.xml" rel="self" type="application/rss+xml"/><item><title>Overview</title><link>/lemat-synth/overview/</link><pubDate>Tue, 28 Oct 2025 00:00:00 +0000</pubDate><guid>/lemat-synth/overview/</guid><description>&lt;p>&lt;strong>LeMat-Synth&lt;/strong> is an open-source multi-modal toolbox for extracting structured synthesis procedures and performance data from materials science literature at scale. It was presented at &lt;a href="https://arxiv.org/abs/2510.26824">NeurIPS AI4Mat 2025&lt;/a>.&lt;/p></description></item><item><title>Tutorials</title><link>/lemat-synth/tutorials/</link><pubDate>Tue, 28 Oct 2025 00:00:00 +0000</pubDate><guid>/lemat-synth/tutorials/</guid><description>&lt;p>Seven runnable notebooks that take you from &lt;em>reading&lt;/em> LeMat-Synth data to
+&lt;em>producing&lt;/em> it, and finally to &lt;em>changing what gets produced&lt;/em>. Each one is
+self-contained, states its prerequisites and cost up front, and explains what
+every step is doing rather than just executing it.&lt;/p></description></item></channel></rss>
