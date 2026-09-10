@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>API Reference on LeMaterial</title>
+    <link>http://localhost:61375/lemat-synth/api/</link>
+    <description>Recent content in API Reference on LeMaterial</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <copyright>Copyright (c) 2020-2024 Entalpic</copyright>
+    <lastBuildDate>Tue, 28 Oct 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:61375/lemat-synth/api/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Pipeline</title>
+      <link>http://localhost:61375/lemat-synth/api/pipeline/</link>
+      <pubDate>Tue, 28 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:61375/lemat-synth/api/pipeline/</guid>
+      <description>&lt;p&gt;The &lt;code&gt;SynthesisPerformancePipeline&lt;/code&gt; is the main orchestrator for end-to-end extraction. It chains material extraction, synthesis extraction, judge evaluation, and optional figure/performance linking.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Data Models</title>
+      <link>http://localhost:61375/lemat-synth/api/models/</link>
+      <pubDate>Tue, 28 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:61375/lemat-synth/api/models/</guid>
+      <description>&lt;p&gt;All output data is represented as &lt;a href=&#34;https://docs.pydantic.dev&#34;&gt;Pydantic&lt;/a&gt; models. You can serialise any model to JSON with &lt;code&gt;.model_dump()&lt;/code&gt; and parse from a dict with &lt;code&gt;.model_validate(data)&lt;/code&gt;.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Transformers</title>
+      <link>http://localhost:61375/lemat-synth/api/transformers/</link>
+      <pubDate>Tue, 28 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:61375/lemat-synth/api/transformers/</guid>
+      <description>&lt;p&gt;All extractors inherit from &lt;code&gt;ExtractorInterface[T, R]&lt;/code&gt;. Each implements a &lt;code&gt;forward(input)&lt;/code&gt; method (synchronous) and gets an &lt;code&gt;aforward(input)&lt;/code&gt; method (async) for free.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Configuration</title>
+      <link>http://localhost:61375/lemat-synth/api/configuration/</link>
+      <pubDate>Tue, 28 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:61375/lemat-synth/api/configuration/</guid>
+      <description>&lt;h2 id=&#34;plotfilterconfig&#34;&gt;PlotFilterConfig&lt;/h2&gt;&#xA;&lt;p&gt;&lt;code&gt;PlotFilterConfig&lt;/code&gt; controls which plots are considered relevant for performance linking. Use the factory class methods to get pre-configured instances for your domain.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Metrics &amp; Judges</title>
+      <link>http://localhost:61375/lemat-synth/api/metrics/</link>
+      <pubDate>Tue, 28 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:61375/lemat-synth/api/metrics/</guid>
+      <description>&lt;h2 id=&#34;synthesis-judge&#34;&gt;Synthesis judge&lt;/h2&gt;&#xA;&lt;h3 id=&#34;dspygeneralsynthesisjudge&#34;&gt;&lt;code&gt;DspyGeneralSynthesisJudge&lt;/code&gt;&lt;/h3&gt;&#xA;&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;&lt;div class=&#34;expressive-code&#34;&gt;&#xD;&#xA;  &lt;figure class=&#34;frame not-content&#34;&gt;&#xD;&#xA;  &lt;figcaption class=&#34;header&#34;&gt;&#xD;&#xA;    &lt;span class=&#34;title&#34;&gt;&lt;/span&gt;&#xD;&#xA;  &lt;/figcaption&gt;&#xD;&#xA;  &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;k&#34;&gt;class&lt;/span&gt; &lt;span class=&#34;nc&#34;&gt;DspyGeneralSynthesisJudge&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;lm&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;enable_reasoning_traces&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;kc&#34;&gt;False&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;confidence_threshold&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;mf&#34;&gt;0.7&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;signature&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;kc&#34;&gt;None&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;retry_temperatures&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;kc&#34;&gt;None&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&#xD;&#xA;  &lt;/figure&gt;&#xD;&#xA;&lt;/div&gt;&#xD;&#xA;&lt;p&gt;Bases: &lt;code&gt;SynthesisJudgeInterface&lt;/code&gt;&lt;/p&gt;&#xA;&lt;p&gt;Enhanced DSPy module for evaluating GeneralSynthesisOntology extraction quality against source synthesis text.&lt;/p&gt;&#xA;&lt;p&gt;Implements a two-level fallback chain for robust structured output.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

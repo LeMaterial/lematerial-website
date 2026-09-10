@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Developer Guide on LeMaterial</title>
+    <link>http://localhost:61375/lemat-synth/developer-guide/</link>
+    <description>Recent content in Developer Guide on LeMaterial</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <copyright>Copyright (c) 2020-2024 Entalpic</copyright>
+    <lastBuildDate>Tue, 28 Oct 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:61375/lemat-synth/developer-guide/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Architecture</title>
+      <link>http://localhost:61375/lemat-synth/developer-guide/architecture/</link>
+      <pubDate>Tue, 28 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:61375/lemat-synth/developer-guide/architecture/</guid>
+      <description>&lt;p&gt;This page is for developers who want to understand how LeMat-Synth is built,&#xA;why it is structured the way it is, and where to start when contributing a new&#xA;feature.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Annotations</title>
+      <link>http://localhost:61375/lemat-synth/developer-guide/annotations/</link>
+      <pubDate>Tue, 28 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:61375/lemat-synth/developer-guide/annotations/</guid>
+      <description>&lt;p&gt;&lt;code&gt;annotations/&lt;/code&gt; is the hand-verified ground-truth evaluation dataset that ships&#xA;with the repository — currently &lt;strong&gt;36 papers, each with a human-written&#xA;&lt;code&gt;result_human.json&lt;/code&gt;&lt;/strong&gt;. It is used to benchmark LLM extraction quality and to&#xA;drive the evaluation scripts.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Configuration &amp; Models</title>
+      <link>http://localhost:61375/lemat-synth/developer-guide/configuration/</link>
+      <pubDate>Tue, 28 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:61375/lemat-synth/developer-guide/configuration/</guid>
+      <description>&lt;p&gt;LeMat-Synth is configured with &lt;a href=&#34;https://hydra.cc&#34;&gt;Hydra&lt;/a&gt;: YAML files describe&#xA;&lt;em&gt;which&lt;/em&gt; components to run, Python describes &lt;em&gt;what&lt;/em&gt; they do. This page covers both&#xA;levels — swapping a model or a data source from the command line, and the&#xA;composition machinery underneath (&lt;code&gt;_target_&lt;/code&gt;, config groups, adding your own&#xA;variants).&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

@@ -1,22 +1,83 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>LeMaterial</title><link>/</link><description>Recent content on LeMaterial</description><generator>Hugo</generator><language>en</language><copyright>Copyright (c) 2020-2024 Entalpic</copyright><lastBuildDate>Fri, 27 Feb 2026 00:00:00 +0000</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml"/><item><title>The mission</title><link>/docs/about/the-mission/</link><pubDate>Thu, 07 Sep 2023 16:04:48 +0200</pubDate><guid>/docs/about/the-mission/</guid><description>&lt;p>LeMaterial is an open-science initiative at the intersection of materials science and machine learning, created to accelerate the discovery of novel materials and deepen our understanding of the chemical space.&lt;/p></description></item><item><title>Datasets</title><link>/docs/about/datasets/</link><pubDate>Thu, 07 Sep 2023 16:04:48 +0200</pubDate><guid>/docs/about/datasets/</guid><description>&lt;p>As part of LeMaterial, we released and will maintain different datasets, unifying and standardizing data from existing databases:&lt;/p>
-&lt;ul>
-&lt;li>
-&lt;p>LeMat-Bulk&lt;/p>
-&lt;ul>
-&lt;li>Released in December 2024&lt;/li>
-&lt;li>This dataset unifies data from Materials Project, Alexandria, and OQMD into a high-quality resource with consistent and systematic properties (6,7M entries, 7 material properties)&lt;/li>
-&lt;li>&lt;a href="https://huggingface.co/datasets/LeMaterial/LeMat-Bulk">https://huggingface.co/datasets/LeMaterial/LeMat-Bulk&lt;/a>&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;li>
-&lt;p>LeMat-BulkUnique&lt;/p></description></item><item><title>LeMaterial with FAIRChem</title><link>/docs/learn/lematerial-with-fairchem/</link><pubDate>Thu, 07 Sep 2023 16:04:48 +0200</pubDate><guid>/docs/learn/lematerial-with-fairchem/</guid><description>&lt;a target="_blank" href="https://colab.research.google.com/drive/1y8_CzKM5Rgsiv9JoPmi9mXphi-kf6Lec?usp=sharing">
- &lt;img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/>
-&lt;/a>
-&lt;br/>&lt;br/>
-&lt;p>The goal of this tutorial is to show how to use LeMaterial&amp;rsquo;s dataset with Geometric GNNs designed for molecular property prediction and relaxation from the &lt;a href="https://github.com/FAIR-Chem/fairchem">FAIRChem repository&lt;/a>.&lt;/p></description></item><item><title>Citations</title><link>/docs/about/citations/</link><pubDate>Thu, 07 Sep 2023 16:04:48 +0200</pubDate><guid>/docs/about/citations/</guid><description>&lt;p>All content released under the LeMaterial initiative is distributed under the Creative Commons Attribution 4.0 International (CC BY 4.0) license. This means the datasets and tools may be freely copied, distributed, modified, and used for derivative works, provided that appropriate credit is given to the LeMaterial project.&lt;/p></description></item><item><title>How to join?</title><link>/docs/about/how-to-join/</link><pubDate>Thu, 07 Sep 2023 16:04:48 +0200</pubDate><guid>/docs/about/how-to-join/</guid><description>&lt;p>&lt;strong>LeMaterial is an open and collaborative initiative&lt;/strong> — and anyone with an interest in materials science, machine learning, or open scientific infrastructure is welcome to join. Whether you’re a student, researcher, engineer, or just curious, there’s a place for you in the community.&lt;/p></description></item><item><title>Code of Conduct</title><link>/docs/about/code-of-conduct/</link><pubDate>Thu, 07 Sep 2023 16:04:48 +0200</pubDate><guid>/docs/about/code-of-conduct/</guid><description>&lt;h2 id="our-pledge">Our Pledge&lt;/h2>
-&lt;p>We as members, contributors, and leaders pledge to make participation in our
-community a harassment-free experience for everyone, regardless of age, body
-size, visible or invisible disability, ethnicity, sex characteristics, gender
-identity and expression, level of experience, education, socio-economic status,
-nationality, personal appearance, race, caste, color, religion, or sexual
-identity and orientation.&lt;/p></description></item><item><title>Publications</title><link>/publications/</link><pubDate>Fri, 27 Feb 2026 00:00:00 +0000</pubDate><guid>/publications/</guid><description>LeMaterial papers with direct links to paper, dataset, and code.</description></item><item><title>Celebrating one year of LeMaterial</title><link>/blog/celebrating-one-year-of-lematerial/</link><pubDate>Tue, 02 Dec 2025 00:00:00 +0000</pubDate><guid>/blog/celebrating-one-year-of-lematerial/</guid><description>One-year anniversary retrospective published on December 2, 2025, covering project growth and upcoming priorities.</description></item><item><title>LeMaterial launch blogpost</title><link>/blog/lematerial-launch-blogpost/</link><pubDate>Tue, 10 Dec 2024 00:00:00 +0000</pubDate><guid>/blog/lematerial-launch-blogpost/</guid><description>Launch post published on December 10, 2024, presenting LeMaterial&amp;rsquo;s scope, collaborators, and first public resources.</description></item><item><title>Privacy Policy</title><link>/privacy/</link><pubDate>Thu, 07 Sep 2023 17:19:07 +0200</pubDate><guid>/privacy/</guid><description/></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>LeMaterial</title>
+    <link>http://localhost:61375/</link>
+    <description>Recent content on LeMaterial</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <copyright>Copyright (c) 2020-2024 Entalpic</copyright>
+    <lastBuildDate>Tue, 28 Oct 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:61375/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Overview</title>
+      <link>http://localhost:61375/lemat-synth/overview/</link>
+      <pubDate>Tue, 28 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:61375/lemat-synth/overview/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;LeMat-Synth&lt;/strong&gt; is an open-source multi-modal toolbox for extracting structured synthesis procedures and performance data from materials science literature at scale. It was presented at &lt;a href=&#34;https://arxiv.org/abs/2510.26824&#34;&gt;NeurIPS AI4Mat 2025&lt;/a&gt;.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Installation</title>
+      <link>http://localhost:61375/lemat-synth/getting-started/installation/</link>
+      <pubDate>Tue, 28 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:61375/lemat-synth/getting-started/installation/</guid>
+      <description>&lt;h2 id=&#34;prerequisites&#34;&gt;Prerequisites&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Python 3.11+&lt;/strong&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;&lt;a href=&#34;https://github.com/astral-sh/uv&#34;&gt;uv&lt;/a&gt;&lt;/strong&gt; — the package manager used by this project&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;Install &lt;code&gt;uv&lt;/code&gt; (one-time):&lt;/p&gt;&#xA;&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;&lt;div class=&#34;expressive-code&#34;&gt;&#xD;&#xA;  &lt;figure class=&#34;frame is-terminal not-content&#34;&gt;&#xD;&#xA;  &lt;figcaption class=&#34;header&#34;&gt;&#xD;&#xA;    &lt;span class=&#34;title&#34;&gt;&lt;/span&gt;&#xD;&#xA;  &lt;/figcaption&gt;&#xD;&#xA;  &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;curl -LsSf https://astral.sh/uv/install.sh &lt;span class=&#34;p&#34;&gt;|&lt;/span&gt; sh&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&#xD;&#xA;  &lt;/figure&gt;&#xD;&#xA;&lt;/div&gt;&#xD;&#xA;&lt;h2 id=&#34;install-the-package&#34;&gt;Install the package&lt;/h2&gt;&#xA;&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;&lt;div class=&#34;expressive-code&#34;&gt;&#xD;&#xA;  &lt;figure class=&#34;frame is-terminal not-content&#34;&gt;&#xD;&#xA;  &lt;figcaption class=&#34;header&#34;&gt;&#xD;&#xA;    &lt;span class=&#34;title&#34;&gt;&lt;/span&gt;&#xD;&#xA;  &lt;/figcaption&gt;&#xD;&#xA;  &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;# 1. Clone the repository&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;git clone https://github.com/LeMaterial/lematerial-llm-synthesis.git&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nb&#34;&gt;cd&lt;/span&gt; lematerial-llm-synthesis&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;# 2. Create a virtual environment and install all dependencies&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;uv sync&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;# 3. Install the llm_synthesis package in editable mode&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;uv pip install -e .&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;# 4. Verify the installation&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;uv run python -c &lt;span class=&#34;s2&#34;&gt;&amp;#34;import llm_synthesis; print(&amp;#39;OK&amp;#39;)&amp;#34;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&#xD;&#xA;  &lt;/figure&gt;&#xD;&#xA;&lt;/div&gt;&#xD;&#xA;&lt;h2 id=&#34;set-up-api-keys&#34;&gt;Set up API keys&lt;/h2&gt;&#xA;&lt;p&gt;Copy the example environment file and add your keys:&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Quickstart</title>
+      <link>http://localhost:61375/lemat-synth/getting-started/quickstart/</link>
+      <pubDate>Tue, 28 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:61375/lemat-synth/getting-started/quickstart/</guid>
+      <description>&lt;p&gt;This page gets you from zero to your first extracted synthesis in under 10 minutes.&lt;/p&gt;&#xA;&lt;h2 id=&#34;option-1--interactive-notebook-recommended-for-beginners&#34;&gt;Option 1 — Interactive notebook (recommended for beginners)&lt;/h2&gt;&#xA;&lt;p&gt;Open the tutorial notebooks in Jupyter:&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Dataset Access</title>
+      <link>http://localhost:61375/lemat-synth/getting-started/dataset/</link>
+      <pubDate>Tue, 28 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:61375/lemat-synth/getting-started/dataset/</guid>
+      <description>&lt;p&gt;LeMat-Synth publishes two datasets on the HuggingFace Hub. Both are &lt;strong&gt;gated&lt;/strong&gt; —&#xA;access is granted automatically, but you must request it once and be&#xA;authenticated.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Tutorials</title>
+      <link>http://localhost:61375/lemat-synth/tutorials/</link>
+      <pubDate>Tue, 28 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:61375/lemat-synth/tutorials/</guid>
+      <description>&lt;p&gt;Seven runnable notebooks that take you from &lt;em&gt;reading&lt;/em&gt; LeMat-Synth data to&#xA;&lt;em&gt;producing&lt;/em&gt; it, and finally to &lt;em&gt;changing what gets produced&lt;/em&gt;. Each one is&#xA;self-contained, states its prerequisites and cost up front, and explains what&#xA;every step is doing rather than just executing it.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Thermocatalysis</title>
+      <link>http://localhost:61375/lemat-synth/case-studies/thermocatalysis/</link>
+      <pubDate>Tue, 28 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:61375/lemat-synth/case-studies/thermocatalysis/</guid>
+      <description>&lt;p&gt;End-to-end workflow for ammonia-decomposition catalysts: extract synthesis&#xA;procedures &lt;em&gt;and&lt;/em&gt; conversion-vs-temperature curves from a folder of PDFs, then&#xA;score several vision models against human-annotated ground truth.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Superconductors</title>
+      <link>http://localhost:61375/lemat-synth/case-studies/superconductors/</link>
+      <pubDate>Tue, 28 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:61375/lemat-synth/case-studies/superconductors/</guid>
+      <description>&lt;p&gt;Extracts synthesis procedures and critical temperatures (&lt;em&gt;T&lt;/em&gt;&lt;sub&gt;c&lt;/sub&gt;) from&#xA;superconductor papers. &lt;em&gt;T&lt;/em&gt;&lt;sub&gt;c&lt;/sub&gt; is read twice — once from the text, and&#xA;once geometrically from ρ(T) or R(T) plots — which gives a built-in&#xA;cross-check on both readings.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Porous Materials</title>
+      <link>http://localhost:61375/lemat-synth/case-studies/porosity/</link>
+      <pubDate>Tue, 28 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:61375/lemat-synth/case-studies/porosity/</guid>
+      <description>&lt;p&gt;Extracts synthesis procedures and adsorption isotherms from papers on MOFs,&#xA;zeolites, COFs and related frameworks.&lt;/p&gt;&#xA;&lt;p&gt;This is the simplest of the three case studies — no domain metric extractors, no&#xA;custom writer — which makes it the best template to copy when starting a new&#xA;domain. &lt;a href=&#34;http://localhost:61375/lemat-synth/case-studies/custom-domain/&#34;&gt;Building your own case study&lt;/a&gt; walks through exactly&#xA;how it is assembled.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Build Your Own</title>
+      <link>http://localhost:61375/lemat-synth/case-studies/custom-domain/</link>
+      <pubDate>Tue, 28 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:61375/lemat-synth/case-studies/custom-domain/</guid>
+      <description>&lt;p&gt;Pointing LeMat-Synth at a new scientific domain — electrochemistry, battery&#xA;cycling, thermoelectrics, photocatalysis — does not require touching the&#xA;pipeline. You assemble a &lt;code&gt;DomainConfig&lt;/code&gt; from four pieces and hand it to&#xA;&lt;code&gt;BatchRunner&lt;/code&gt;, which already knows how to find PDFs, detect supplementary&#xA;files, retry on rate limits, resume interrupted runs, and report progress.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>CLI Reference</title>
+      <link>http://localhost:61375/lemat-synth/user-guide/cli/</link>
+      <pubDate>Tue, 28 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:61375/lemat-synth/user-guide/cli/</guid>
+      <description>&lt;p&gt;The &lt;code&gt;lemat-synth&lt;/code&gt; command-line tool lets you extract structured synthesis&#xA;procedures from materials science papers without writing any Python code.&lt;/p&gt;&#xA;&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;&lt;div class=&#34;expressive-code&#34;&gt;&#xD;&#xA;  &lt;figure class=&#34;frame is-terminal not-content&#34;&gt;&#xD;&#xA;  &lt;figcaption class=&#34;header&#34;&gt;&#xD;&#xA;    &lt;span class=&#34;title&#34;&gt;&lt;/span&gt;&#xD;&#xA;  &lt;/figcaption&gt;&#xD;&#xA;  &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;lemat-synth extract &amp;lt;paper&amp;gt;   &lt;span class=&#34;o&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;key&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;value ...&lt;span class=&#34;o&#34;&gt;]&lt;/span&gt; &lt;span class=&#34;c1&#34;&gt;# Extract from a single paper&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;lemat-synth batch   &amp;lt;folder&amp;gt;  &lt;span class=&#34;o&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;key&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;value ...&lt;span class=&#34;o&#34;&gt;]&lt;/span&gt; &lt;span class=&#34;c1&#34;&gt;# Extract from a folder of papers&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&#xD;&#xA;  &lt;/figure&gt;&#xD;&#xA;&lt;/div&gt;&#xD;&#xA;&lt;p&gt;Both commands accept the same &lt;code&gt;key=value&lt;/code&gt; overrides, which can be used to change models, prompts, output paths, and other settings. See &lt;a href=&#34;#quick-reference-all-arguments&#34;&gt;Quick Reference: All Arguments&lt;/a&gt; below.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
