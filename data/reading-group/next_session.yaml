@@ -7,8 +7,8 @@
   paper_link: "https://arxiv.org/abs/2608.18982"
   image_url: "/images/reading-group/monroe-2026-10-21.png"
   image_alt: "Monroe reading group with Błażej Banaszewski on October 21, 2026 at 5:30 PM CEST"
-  meeting_note: "Meeting link coming soon"
-  calendar_link: "https://calendar.google.com/calendar/render?action=TEMPLATE&text=LeMaterial%20Reading%20Group%20%E2%80%94%20Monroe%3A%20A%20Molecular%20Foundation%20Model%20for%20In-Context%20Probabilistic%20Inference&dates=20261021T153000Z%2F20261021T163000Z&ctz=Europe%2FParis&details=B%C5%82a%C5%BCej%20Banaszewski%20(Max%20Planck%20Institute%20of%20Biochemistry)%20presents%20Monroe%20at%20the%20LeMaterial%20Reading%20Group.%20Session%20details%3A%20https%3A%2F%2Flematerial.org%2Fdocs%2Freading-group%2F&location=https%3A%2F%2Flematerial.org%2Fdocs%2Freading-group%2F"
+  meeting_link: "https://meet.google.com/hcg-szpf-ibh"
+  calendar_link: "https://calendar.google.com/calendar/render?action=TEMPLATE&text=LeMaterial%20Reading%20Group%20%E2%80%94%20Monroe%3A%20A%20Molecular%20Foundation%20Model%20for%20In-Context%20Probabilistic%20Inference&dates=20261021T153000Z%2F20261021T163000Z&ctz=Europe%2FParis&details=B%C5%82a%C5%BCej%20Banaszewski%20(Max%20Planck%20Institute%20of%20Biochemistry)%20presents%20Monroe%20at%20the%20LeMaterial%20Reading%20Group.%20Session%20details%3A%20https%3A%2F%2Flematerial.org%2Fdocs%2Freading-group%2F&location=https%3A%2F%2Fmeet.google.com%2Fhcg-szpf-ibh"
   description: |
     Monroe is a molecular foundation model designed for property prediction in low-data regimes. It combines large-scale multi-task pretraining on quantum-chemical and bioactivity data with explicit stereochemical representations and conformer denoising, and uses TabPFN for downstream prediction from frozen molecular embeddings. I will present the main ideas behind Monroe, its performance across molecular property prediction benchmarks, and what we learned about combining molecular foundation models with tabular inference.
 
